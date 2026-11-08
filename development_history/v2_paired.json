@@ -1,0 +1,123 @@
+{
+  "statistical_note": "Exploratory estimates only; CI is a cluster bootstrap of episode-level differences. Correction times are censored when not corrected and are NOT averaged.",
+  "comparisons": [
+    {
+      "n": 3,
+      "n_complete_paired_episodes": 12,
+      "social_minus_independent_unsupported": 0.0139,
+      "episode_cluster_bootstrap_95pct": [
+        0.0,
+        0.0417
+      ],
+      "correction_times_with_censoring": [
+        {
+          "episode": "E0000",
+          "independent": [
+            0,
+            false
+          ],
+          "social": [
+            0,
+            false
+          ]
+        },
+        {
+          "episode": "E0005",
+          "independent": [
+            0,
+            false
+          ],
+          "social": [
+            0,
+            false
+          ]
+        },
+        {
+          "episode": "E0006",
+          "independent": [
+            0,
+            false
+          ],
+          "social": [
+            0,
+            false
+          ]
+        }
+      ],
+      "per_episode": [
+        {
+          "episode": "E0000",
+          "kind": "switch",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0003",
+          "kind": "switch",
+          "independent_unsupported": 0.1667,
+          "social_unsupported": 0.1667
+        },
+        {
+          "episode": "E0005",
+          "kind": "switch",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0006",
+          "kind": "switch",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0013",
+          "kind": "switch",
+          "independent_unsupported": 0.1667,
+          "social_unsupported": 0.3333
+        },
+        {
+          "episode": "E0014",
+          "kind": "switch",
+          "independent_unsupported": 0.1667,
+          "social_unsupported": 0.1667
+        },
+        {
+          "episode": "E0017",
+          "kind": "stable",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0018",
+          "kind": "stable",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0022",
+          "kind": "stable",
+          "independent_unsupported": 0,
+          "social_unsupported": 0
+        },
+        {
+          "episode": "E0023",
+          "kind": "stable",
+          "independent_unsupported": 0.3333,
+          "social_unsupported": 0.3333
+        },
+        {
+          "episode": "E0027",
+          "kind": "ambiguous",
+          "independent_unsupported": 1,
+          "social_unsupported": 1
+        },
+        {
+          "episode": "E0030",
+          "kind": "ambiguous",
+          "independent_unsupported": 1,
+          "social_unsupported": 1
+        }
+      ]
+    }
+  ]
+}

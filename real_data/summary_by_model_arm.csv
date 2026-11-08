@@ -1,0 +1,16 @@
+model,arm,n,correct,wrong,abstain
+openai/gpt-4o-mini,NO_PEER,24,24,0,0
+openai/gpt-4o-mini,CURRENT_PEER,24,24,0,0
+openai/gpt-4o-mini,OLD_PEER,24,24,0,0
+openai/gpt-4o-mini,SPOOFED_OLD_PEER,24,24,0,0
+openai/gpt-4o-mini,QUARANTINE,24,24,0,0
+google/gemini-3.1-flash-lite,NO_PEER,24,24,0,0
+google/gemini-3.1-flash-lite,CURRENT_PEER,24,24,0,0
+google/gemini-3.1-flash-lite,OLD_PEER,24,24,0,0
+google/gemini-3.1-flash-lite,SPOOFED_OLD_PEER,24,24,0,0
+google/gemini-3.1-flash-lite,QUARANTINE,24,24,0,0
+qwen/qwen3-235b-a22b-2507,NO_PEER,24,24,0,0
+qwen/qwen3-235b-a22b-2507,CURRENT_PEER,24,24,0,0
+qwen/qwen3-235b-a22b-2507,OLD_PEER,24,24,0,0
+qwen/qwen3-235b-a22b-2507,SPOOFED_OLD_PEER,24,24,0,0
+qwen/qwen3-235b-a22b-2507,QUARANTINE,24,24,0,0

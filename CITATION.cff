@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use WindShift in research, please cite this repository."
+title: "WindShift: Old Advice, New Evidence"
+type: software
+authors:
+  - family-names: Verma
+    given-names: Karan
+date-released: 2026-11-08
+abstract: "A controlled peer-message freshness and reviewer-decision evaluation, with historical monitoring-data boundary test."

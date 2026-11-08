@@ -1,0 +1,577 @@
+model,episode,hour,kind,arm,truth,choice,correct,unnecessary_abstain,unsupported,wrong_source
+GPT-4o-mini,V3_000,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_000,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_000,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_000,11,switch,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_001,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_001,9,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_001,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_001,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_002,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_002,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_002,13,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_002,13,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_003,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,9,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_004,7,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_004,7,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_004,9,switch,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_004,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_005,9,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_005,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_005,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_005,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_006,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_006,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_006,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_006,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_007,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_007,9,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_007,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_007,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_008,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_008,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_008,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_008,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_009,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_009,11,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_009,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_009,13,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_010,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_010,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_011,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_011,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_011,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_011,13,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_012,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_012,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_012,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_012,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_013,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,9,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_014,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_014,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_014,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_014,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_015,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_015,9,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_015,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_015,11,switch,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,7,stable,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,7,stable,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,9,stable,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,7,stable,stale_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,7,stable,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,9,stable,stale_peer,WEST,EAST,0,0,1,1
+GPT-4o-mini,V3_018,7,stable,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,7,stable,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,9,stable,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,9,stable,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,7,stable,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,7,stable,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,9,stable,stale_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,9,stable,fresh_peer,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_020,7,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_020,7,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_020,9,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_020,9,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_021,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_021,7,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_021,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_021,9,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_022,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_022,7,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_022,9,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_022,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_023,7,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_023,7,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_023,9,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_023,9,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_000,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_000,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_000,11,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_000,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_001,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_001,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_001,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_001,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_002,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_002,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_002,13,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_002,13,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_003,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_003,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_004,7,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_004,7,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_004,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_004,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_005,9,switch,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_005,9,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_005,11,switch,current_content_old_timestamp,WEST,EAST,0,0,1,1
+GPT-4o-mini,V3_005,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_006,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_006,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_006,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_006,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_007,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_007,9,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_007,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_007,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_008,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_008,9,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_008,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_008,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_009,11,switch,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_009,11,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_009,13,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_009,13,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,9,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_010,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_011,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_011,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_011,13,switch,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_011,13,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_012,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_012,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_012,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_012,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_013,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_013,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_014,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_014,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_014,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_014,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_015,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_015,9,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_015,11,switch,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_015,11,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+GPT-4o-mini,V3_016,7,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,7,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_016,9,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,7,stable,current_content_old_timestamp,WEST,EAST,0,0,1,1
+GPT-4o-mini,V3_017,7,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_017,9,stable,current_content_old_timestamp,WEST,EAST,0,0,1,1
+GPT-4o-mini,V3_017,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+GPT-4o-mini,V3_018,7,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,7,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,9,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_018,9,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,7,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,7,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,9,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_019,9,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+GPT-4o-mini,V3_020,7,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_020,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_020,9,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_020,9,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_021,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_021,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_021,9,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_021,9,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_022,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_022,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_022,9,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+GPT-4o-mini,V3_022,9,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_023,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+GPT-4o-mini,V3_023,7,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_023,9,ambiguous,current_content_old_timestamp,ABSTAIN,WEST,0,0,1,0
+GPT-4o-mini,V3_023,9,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_000,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,11,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_000,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_001,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_001,9,switch,current_content_old_timestamp,WEST,EAST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_001,9,switch,historical_content_new_timestamp,WEST,EAST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_001,9,switch,stale_peer,WEST,EAST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_001,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_001,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_001,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_001,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_002,11,switch,fresh_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,11,switch,current_content_old_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,11,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,11,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,13,switch,fresh_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,13,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_002,13,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_002,13,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_003,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_003,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,7,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,7,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,7,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,7,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_004,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_005,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_006,9,switch,fresh_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,9,switch,current_content_old_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,9,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,9,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_006,11,switch,current_content_old_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,11,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_006,11,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_007,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_007,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_008,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_008,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_008,9,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_008,9,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_008,11,switch,fresh_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_008,11,switch,current_content_old_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_008,11,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_008,11,switch,stale_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_009,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,13,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,13,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_009,13,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_010,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_010,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_010,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_010,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_010,11,switch,fresh_peer,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_010,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_010,11,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_010,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_011,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,13,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,13,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_011,13,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_012,11,switch,historical_content_new_timestamp,EAST,WEST,0,0,1,1
+Gemini 3.1 Flash Lite,V3_012,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_013,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_014,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_014,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_014,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_015,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_015,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,7,stable,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,7,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,7,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,7,stable,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,9,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_016,9,stable,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,7,stable,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,7,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,7,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,7,stable,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,9,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_017,9,stable,stale_peer,WEST,WEST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,7,stable,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,7,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,7,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,7,stable,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,9,stable,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,9,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,9,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_018,9,stable,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_019,7,stable,fresh_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_019,7,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_019,7,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_019,7,stable,stale_peer,EAST,EAST,1,0,0,0
+Gemini 3.1 Flash Lite,V3_019,9,stable,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_019,9,stable,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_019,9,stable,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_019,9,stable,stale_peer,EAST,ABSTAIN,0,1,0,0
+Gemini 3.1 Flash Lite,V3_020,7,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_020,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_020,7,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_020,7,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_020,9,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_020,9,ambiguous,current_content_old_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_020,9,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_020,9,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,7,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,7,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_021,9,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,9,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_021,9,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_022,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_022,7,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_022,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_022,7,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_022,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_022,9,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_022,9,ambiguous,historical_content_new_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_022,9,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Gemini 3.1 Flash Lite,V3_023,7,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,7,ambiguous,current_content_old_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,7,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,7,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,9,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,9,ambiguous,current_content_old_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,9,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Gemini 3.1 Flash Lite,V3_023,9,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+Qwen3-235B,V3_000,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_000,9,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_000,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_000,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_020,7,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,7,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,7,ambiguous,historical_content_new_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,7,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_000,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_000,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_000,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_000,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_001,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_001,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_002,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_002,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_002,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_002,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_002,13,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_002,13,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_002,13,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_002,13,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_003,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_003,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_004,7,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,7,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,7,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,7,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_004,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_005,9,switch,fresh_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_005,9,switch,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_005,9,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_005,9,switch,stale_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_005,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_005,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_005,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_005,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_006,9,switch,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_006,9,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_006,9,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_006,9,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_006,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_006,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_006,11,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_006,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_007,9,switch,fresh_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_007,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_007,9,switch,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_007,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_007,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_007,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_007,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_007,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_008,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_008,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_008,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_008,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_008,11,switch,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_008,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_008,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_008,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_009,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,13,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,13,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_009,13,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_010,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_010,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_010,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_010,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_010,11,switch,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_010,11,switch,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_010,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_010,11,switch,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_011,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,13,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,13,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,13,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_011,13,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_012,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_012,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_012,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_012,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_012,11,switch,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_012,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_012,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_012,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_013,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_013,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_014,9,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,9,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,9,switch,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,9,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,11,switch,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,11,switch,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_014,11,switch,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_014,11,switch,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_015,9,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,9,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,9,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,9,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,11,switch,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,11,switch,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,11,switch,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_015,11,switch,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,7,stable,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,7,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,7,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,7,stable,stale_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_016,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,9,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_016,9,stable,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_017,7,stable,fresh_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_017,7,stable,current_content_old_timestamp,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_017,7,stable,historical_content_new_timestamp,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_017,7,stable,stale_peer,WEST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_017,9,stable,fresh_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_017,9,stable,current_content_old_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_017,9,stable,historical_content_new_timestamp,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_017,9,stable,stale_peer,WEST,WEST,1,0,0,0
+Qwen3-235B,V3_018,7,stable,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,7,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,7,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,7,stable,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,9,stable,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,9,stable,current_content_old_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,9,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_018,9,stable,stale_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_019,7,stable,fresh_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_019,7,stable,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_019,7,stable,historical_content_new_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_019,7,stable,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_019,9,stable,fresh_peer,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_019,9,stable,current_content_old_timestamp,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_019,9,stable,historical_content_new_timestamp,EAST,EAST,1,0,0,0
+Qwen3-235B,V3_019,9,stable,stale_peer,EAST,ABSTAIN,0,1,0,0
+Qwen3-235B,V3_020,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,9,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,9,ambiguous,historical_content_new_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_020,9,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_021,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,7,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,7,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,9,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,9,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,9,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_021,9,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,7,ambiguous,fresh_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,7,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,7,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,7,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_022,9,ambiguous,current_content_old_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,9,ambiguous,historical_content_new_timestamp,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_022,9,ambiguous,stale_peer,ABSTAIN,EAST,0,0,1,0
+Qwen3-235B,V3_023,7,ambiguous,fresh_peer,ABSTAIN,WEST,0,0,1,0
+Qwen3-235B,V3_023,7,ambiguous,current_content_old_timestamp,ABSTAIN,WEST,0,0,1,0
+Qwen3-235B,V3_023,7,ambiguous,historical_content_new_timestamp,ABSTAIN,WEST,0,0,1,0
+Qwen3-235B,V3_023,7,ambiguous,stale_peer,ABSTAIN,WEST,0,0,1,0
+Qwen3-235B,V3_023,9,ambiguous,fresh_peer,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_023,9,ambiguous,current_content_old_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_023,9,ambiguous,historical_content_new_timestamp,ABSTAIN,ABSTAIN,1,0,0,0
+Qwen3-235B,V3_023,9,ambiguous,stale_peer,ABSTAIN,ABSTAIN,1,0,0,0

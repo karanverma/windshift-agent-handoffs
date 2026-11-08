@@ -1,0 +1,700 @@
+{
+  "source_validation": "PASS",
+  "status": "PARTIAL",
+  "source_files": {
+    "ITO_CPCB": "dfd2f715c38326a08ce096bd05d800e770ef041ed77978660c026d7dc1822df8",
+    "ANAND_VIHAR_DPCC": "bf9a92d59abfcc36836b60d8aa501846061a795cc57df427cea156ba327de2b3"
+  },
+  "real_episodes": 24,
+  "inference_audit": {
+    "expected_calls_full_study": 408,
+    "logged_rows_including_errors": 409,
+    "valid_logged_calls": 408,
+    "unique_provider_ids_including_invalid_attempts": 408,
+    "successful_calls_missing_provider_id": 0,
+    "invalid_logged_calls": 1,
+    "distinct_reviewers": [
+      "google/gemini-3.1-flash-lite",
+      "openai/gpt-4o-mini",
+      "qwen/qwen3-235b-a22b-2507"
+    ],
+    "distinct_observed_episode_ids": 24,
+    "complete": false
+  },
+  "peer_fidelity": {
+    "previous": {
+      "n": 24,
+      "correct": 24
+    },
+    "current": {
+      "n": 24,
+      "correct": 24
+    }
+  },
+  "all_outcomes": [
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "CURRENT_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "CURRENT_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "NO_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "NO_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "QUARANTINE",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "QUARANTINE",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_HIGH",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "HIGH_TO_LOW",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_HIGH",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "SPOOFED_OLD_PEER",
+      "episode_type": "LOW_TO_LOW",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstain": 0
+    }
+  ],
+  "aggregate": [
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "NO_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "CURRENT_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "SPOOFED_OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "arm": "QUARANTINE",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "NO_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "CURRENT_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "SPOOFED_OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "arm": "QUARANTINE",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "NO_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "CURRENT_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "SPOOFED_OLD_PEER",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "arm": "QUARANTINE",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstain": 0
+    }
+  ],
+  "invalid_attempts_logged": 1,
+  "warning": "Descriptive observational-grounded screening, not forecasting or atmospheric source attribution. Reviewers see current measured daily mean. Only two stations; no causal transport inference."
+}

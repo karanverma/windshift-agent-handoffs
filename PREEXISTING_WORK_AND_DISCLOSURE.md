@@ -1,0 +1,7 @@
+# Prior work and disclosure for Apart judges
+
+The paper separates feasibility, exploratory and confirmatory-looking phases to prevent double counting. Earlier WindShift v1/v2 pilot work is preserved under `development_history/` and excluded from the 576 three-model factorial comparisons. v3 contains an internally frozen, pre-specified wrong-source primary contrast, which yielded a null result. v4 was designed after observing v3; it reuses two of v3's cells and must be called exploratory. Gemini and Qwen are frozen-prompt reviewer checks, **not** completely regenerated three-model swarms.
+
+All WindShift code was developed independently for this fictional benchmark. No code or unpublished data from the separate Lida Safety research collaborations were imported. ChatGPT materially assisted with planning, implementation, debugging, auditing, visuals and manuscript prose. Experimental model outputs were checked by deterministic code, not by an LLM-as-judge. The complete AI-assistance statement belongs in the final approved report; see `paper/README.md` for manuscript status.
+
+The supporting files document the v1-v4 order but cannot independently establish exact creation timestamps for every earlier module. The human author should check which assets were written before Friday November 6, 2026 before making an absolute pre-sprint originality claim in the Apart form. This README deliberately makes no unsupported claim that all source files were first created on the sprint weekend.

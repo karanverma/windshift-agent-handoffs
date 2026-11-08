@@ -1,0 +1,5393 @@
+{
+  "title": "WindShift v3 pre-specified stale peer intervention",
+  "schema_version": 3,
+  "generator_seed": 20261117,
+  "origin": "SYNTHETIC toy physical model; no real Indian pollution labels",
+  "selection": "First eligible instances from fixed-seed pool, balanced on withheld oracle before inference; no model-output selection",
+  "planned_episodes": 24,
+  "planned_arms": [
+    "no_peer",
+    "fresh_peer",
+    "stale_peer"
+  ],
+  "planned_peer_calls_per_episode": 6,
+  "planned_target_calls_per_episode": 6,
+  "episodes": [
+    {
+      "episode_id": "V3_000",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 18.17,
+          "fires_west": 150.61,
+          "fires_east": 243.04,
+          "pm_index": 48.9,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.128,
+            "EAST": 0.207
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 16.87,
+          "fires_west": 50.76,
+          "fires_east": 74.43,
+          "pm_index": 53.68,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 5.101,
+            "EAST": 0.064
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 16.88,
+          "fires_west": 60.3,
+          "fires_east": 85.08,
+          "pm_index": 66.53,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 20.779,
+            "EAST": 0.072
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 17.82,
+          "fires_west": 53.0,
+          "fires_east": 66.6,
+          "pm_index": 62.26,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 14.933,
+            "EAST": 0.057
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 18.37,
+          "fires_west": 141.91,
+          "fires_east": 95.01,
+          "pm_index": 56.33,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.916,
+            "EAST": 0.081
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 18.81,
+          "fires_west": 56.91,
+          "fires_east": 75.69,
+          "pm_index": 62.34,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 14.727,
+            "EAST": 0.064
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 17.22,
+          "fires_west": 77.59,
+          "fires_east": 90.78,
+          "pm_index": 68.27,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 21.841,
+            "EAST": 0.077
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -17.9,
+          "fires_west": 82.55,
+          "fires_east": 96.71,
+          "pm_index": 62.06,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 10.33,
+            "EAST": 3.712
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -17.64,
+          "fires_west": 174.74,
+          "fires_east": 68.68,
+          "pm_index": 71.28,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 6.287,
+            "EAST": 17.728
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -16.87,
+          "fires_west": 14.82,
+          "fires_east": 131.06,
+          "pm_index": 80.09,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 5.284,
+            "EAST": 26.535
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -17.98,
+          "fires_west": 41.6,
+          "fires_east": 71.03,
+          "pm_index": 80.13,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 5.767,
+            "EAST": 26.283
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -17.4,
+          "fires_west": 78.14,
+          "fires_east": 108.09,
+          "pm_index": 77.25,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 1.243,
+            "EAST": 27.79
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -18.52,
+          "fires_west": 47.52,
+          "fires_east": 281.52,
+          "pm_index": 70.9,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.056,
+            "EAST": 22.261
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -18.6,
+          "fires_west": 75.77,
+          "fires_east": 95.46,
+          "pm_index": 81.81,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.064,
+            "EAST": 32.272
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -17.64,
+          "fires_west": 59.56,
+          "fires_east": 20.38,
+          "pm_index": 94.11,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.051,
+            "EAST": 47.399
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -18.56,
+          "fires_west": 102.36,
+          "fires_east": 19.85,
+          "pm_index": 68.21,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.087,
+            "EAST": 21.167
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -18.57,
+          "fires_west": 22.06,
+          "fires_east": 75.55,
+          "pm_index": 51.69,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.019,
+            "EAST": 6.063
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0007"
+    },
+    {
+      "episode_id": "V3_001",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -16.53,
+          "fires_west": 80.2,
+          "fires_east": 93.77,
+          "pm_index": 63.61,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.068,
+            "EAST": 0.08
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -18.35,
+          "fires_west": 47.76,
+          "fires_east": 58.37,
+          "pm_index": 64.87,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.041,
+            "EAST": 3.995
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -17.95,
+          "fires_west": 60.15,
+          "fires_east": 81.43,
+          "pm_index": 75.66,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.051,
+            "EAST": 14.473
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -17.76,
+          "fires_west": 85.94,
+          "fires_east": 46.52,
+          "pm_index": 74.83,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.073,
+            "EAST": 13.362
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -17.09,
+          "fires_west": 121.76,
+          "fires_east": 63.89,
+          "pm_index": 76.8,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.104,
+            "EAST": 14.155
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -16.64,
+          "fires_west": 79.34,
+          "fires_east": 87.01,
+          "pm_index": 72.31,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.068,
+            "EAST": 11.369
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -17.11,
+          "fires_west": 48.22,
+          "fires_east": 28.92,
+          "pm_index": 74.54,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.041,
+            "EAST": 13.266
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 18.12,
+          "fires_west": 181.57,
+          "fires_east": 66.58,
+          "pm_index": 72.71,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.181,
+            "EAST": 8.193
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 18.32,
+          "fires_west": 33.74,
+          "fires_east": 31.48,
+          "pm_index": 83.73,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.711,
+            "EAST": 7.135
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 16.86,
+          "fires_west": 85.21,
+          "fires_east": 173.84,
+          "pm_index": 101.71,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 36.588,
+            "EAST": 4.993
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 18.03,
+          "fires_west": 124.01,
+          "fires_east": 62.99,
+          "pm_index": 89.5,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 25.075,
+            "EAST": 3.565
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 18.01,
+          "fires_west": 52.91,
+          "fires_east": 76.09,
+          "pm_index": 83.54,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 23.558,
+            "EAST": 0.548
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 17.77,
+          "fires_west": 92.62,
+          "fires_east": 59.82,
+          "pm_index": 83.77,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 23.815,
+            "EAST": 0.056
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 16.8,
+          "fires_west": 57.77,
+          "fires_east": 48.06,
+          "pm_index": 79.93,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.336,
+            "EAST": 0.041
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 17.69,
+          "fires_west": 54.55,
+          "fires_east": 16.7,
+          "pm_index": 78.82,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.733,
+            "EAST": 0.014
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 18.47,
+          "fires_west": 60.1,
+          "fires_east": 21.92,
+          "pm_index": 74.46,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.211,
+            "EAST": 0.019
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 17.87,
+          "fires_west": 92.89,
+          "fires_east": 69.57,
+          "pm_index": 71.26,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.171,
+            "EAST": 0.059
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0113"
+    },
+    {
+      "episode_id": "V3_002",
+      "kind": "switch",
+      "reversal_at": 9,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 19.88,
+          "fires_west": 83.03,
+          "fires_east": 85.75,
+          "pm_index": 73.77,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.071,
+            "EAST": 0.073
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 18.65,
+          "fires_west": 118.86,
+          "fires_east": 95.33,
+          "pm_index": 77.1,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 3.747,
+            "EAST": 0.081
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 19.19,
+          "fires_west": 93.74,
+          "fires_east": 91.14,
+          "pm_index": 90.12,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.273,
+            "EAST": 0.078
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 18.99,
+          "fires_west": 64.96,
+          "fires_east": 21.04,
+          "pm_index": 93.75,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 20.918,
+            "EAST": 0.018
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 18.44,
+          "fires_west": 11.75,
+          "fires_east": 59.19,
+          "pm_index": 90.44,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.021,
+            "EAST": 0.05
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 18.9,
+          "fires_west": 114.73,
+          "fires_east": 51.39,
+          "pm_index": 85.5,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 10.82,
+            "EAST": 0.044
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 17.77,
+          "fires_west": 30.69,
+          "fires_east": 31.62,
+          "pm_index": 81.7,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.554,
+            "EAST": 0.027
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 18.61,
+          "fires_west": 77.97,
+          "fires_east": 27.18,
+          "pm_index": 91.46,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.488,
+            "EAST": 0.023
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 19.13,
+          "fires_west": 88.91,
+          "fires_east": 17.75,
+          "pm_index": 84.52,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 10.25,
+            "EAST": 0.015
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -19.48,
+          "fires_west": 204.66,
+          "fires_east": 131.21,
+          "pm_index": 87.9,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.955,
+            "EAST": 1.005
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -18.19,
+          "fires_west": 85.78,
+          "fires_east": 48.52,
+          "pm_index": 89.48,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.968,
+            "EAST": 8.547
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -19.68,
+          "fires_west": 112.47,
+          "fires_east": 9.24,
+          "pm_index": 101.03,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.271,
+            "EAST": 22.746
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -18.49,
+          "fires_west": 117.98,
+          "fires_east": 29.02,
+          "pm_index": 92.9,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.629,
+            "EAST": 12.63
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -17.9,
+          "fires_west": 91.3,
+          "fires_east": 73.43,
+          "pm_index": 83.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.011,
+            "EAST": 6.918
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -18.55,
+          "fires_west": 36.12,
+          "fires_east": 89.48,
+          "pm_index": 85.49,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.195,
+            "EAST": 9.776
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -19.86,
+          "fires_west": 110.81,
+          "fires_east": 63.51,
+          "pm_index": 89.24,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.401,
+            "EAST": 15.949
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -19.82,
+          "fires_west": 85.35,
+          "fires_east": 18.16,
+          "pm_index": 92.49,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.075,
+            "EAST": 17.342
+          }
+        }
+      ],
+      "window": {
+        "pre": 9,
+        "post": [
+          11,
+          13
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0020"
+    },
+    {
+      "episode_id": "V3_003",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -20.15,
+          "fires_west": 175.69,
+          "fires_east": 22.64,
+          "pm_index": 52.17,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.149,
+            "EAST": 0.019
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -19.12,
+          "fires_west": 83.51,
+          "fires_east": 74.47,
+          "pm_index": 54.88,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.071,
+            "EAST": 1.127
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -18.95,
+          "fires_west": 72.01,
+          "fires_east": 63.17,
+          "pm_index": 58.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.061,
+            "EAST": 6.336
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -20.57,
+          "fires_west": 78.53,
+          "fires_east": 83.1,
+          "pm_index": 65.79,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.067,
+            "EAST": 13.092
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -19.53,
+          "fires_west": 25.69,
+          "fires_east": 53.74,
+          "pm_index": 65.37,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.022,
+            "EAST": 12.678
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -19.76,
+          "fires_west": 83.15,
+          "fires_east": 70.96,
+          "pm_index": 65.29,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.071,
+            "EAST": 13.722
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -20.66,
+          "fires_west": 68.94,
+          "fires_east": 16.87,
+          "pm_index": 63.57,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.059,
+            "EAST": 11.344
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 20.33,
+          "fires_west": 136.66,
+          "fires_east": 46.86,
+          "pm_index": 65.45,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.968,
+            "EAST": 9.866
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 19.69,
+          "fires_west": 79.52,
+          "fires_east": 22.48,
+          "pm_index": 78.24,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 18.221,
+            "EAST": 6.559
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 20.63,
+          "fires_west": 180.42,
+          "fires_east": 55.31,
+          "pm_index": 85.98,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 29.593,
+            "EAST": 4.82
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 20.6,
+          "fires_west": 123.7,
+          "fires_east": 82.36,
+          "pm_index": 78.58,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.627,
+            "EAST": 1.657
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 19.72,
+          "fires_west": 190.03,
+          "fires_east": 27.95,
+          "pm_index": 84.66,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 33.242,
+            "EAST": 0.193
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 20.3,
+          "fires_west": 57.93,
+          "fires_east": 51.23,
+          "pm_index": 83.91,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 30.585,
+            "EAST": 0.045
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 20.73,
+          "fires_west": 43.76,
+          "fires_east": 43.73,
+          "pm_index": 83.46,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 30.29,
+            "EAST": 0.037
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 18.65,
+          "fires_west": 177.67,
+          "fires_east": 8.19,
+          "pm_index": 67.17,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 14.016,
+            "EAST": 0.007
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 19.65,
+          "fires_west": 152.09,
+          "fires_east": 44.41,
+          "pm_index": 67.4,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.508,
+            "EAST": 0.038
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 19.26,
+          "fires_west": 47.3,
+          "fires_east": 76.77,
+          "pm_index": 81.27,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 30.149,
+            "EAST": 0.065
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0003"
+    },
+    {
+      "episode_id": "V3_004",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 20.33,
+          "fires_west": 65.76,
+          "fires_east": 126.86,
+          "pm_index": 50.28,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.056,
+            "EAST": 0.108
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 21.3,
+          "fires_west": 70.95,
+          "fires_east": 18.08,
+          "pm_index": 53.98,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 4.162,
+            "EAST": 0.015
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 19.79,
+          "fires_west": 182.84,
+          "fires_east": 101.83,
+          "pm_index": 61.04,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.427,
+            "EAST": 0.087
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 21.51,
+          "fires_west": 13.74,
+          "fires_east": 180.98,
+          "pm_index": 69.49,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 20.247,
+            "EAST": 0.154
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 21.36,
+          "fires_west": 31.71,
+          "fires_east": 89.74,
+          "pm_index": 73.82,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 20.698,
+            "EAST": 0.076
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 20.16,
+          "fires_west": 86.27,
+          "fires_east": 271.79,
+          "pm_index": 53.87,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 4.323,
+            "EAST": 0.231
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 19.64,
+          "fires_west": 51.48,
+          "fires_east": 92.94,
+          "pm_index": 57.86,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 8.358,
+            "EAST": 0.079
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -20.92,
+          "fires_west": 17.08,
+          "fires_east": 179.59,
+          "pm_index": 59.13,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.183,
+            "EAST": 5.926
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -19.22,
+          "fires_west": 65.13,
+          "fires_east": 267.67,
+          "pm_index": 90.65,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 10.866,
+            "EAST": 30.972
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -20.6,
+          "fires_west": 80.3,
+          "fires_east": 102.08,
+          "pm_index": 120.51,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 7.671,
+            "EAST": 63.371
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -20.23,
+          "fires_west": 68.75,
+          "fires_east": 87.48,
+          "pm_index": 101.59,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.168,
+            "EAST": 49.064
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -20.47,
+          "fires_west": 78.73,
+          "fires_east": 67.07,
+          "pm_index": 78.21,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.957,
+            "EAST": 28.572
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -19.38,
+          "fires_west": 178.46,
+          "fires_east": 70.15,
+          "pm_index": 71.07,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.169,
+            "EAST": 19.224
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -19.67,
+          "fires_west": 51.14,
+          "fires_east": 68.08,
+          "pm_index": 65.22,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.044,
+            "EAST": 14.318
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -20.26,
+          "fires_west": 18.86,
+          "fires_east": 294.32,
+          "pm_index": 66.04,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.016,
+            "EAST": 15.501
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -20.34,
+          "fires_west": 76.48,
+          "fires_east": 44.35,
+          "pm_index": 74.37,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.065,
+            "EAST": 25.33
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -20.91,
+          "fires_west": 51.67,
+          "fires_east": 63.89,
+          "pm_index": 88.26,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.044,
+            "EAST": 37.073
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0081"
+    },
+    {
+      "episode_id": "V3_005",
+      "kind": "switch",
+      "reversal_at": 8,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -18.63,
+          "fires_west": 92.58,
+          "fires_east": 107.07,
+          "pm_index": 64.52,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.079,
+            "EAST": 0.091
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -19.94,
+          "fires_west": 89.58,
+          "fires_east": 135.28,
+          "pm_index": 69.3,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.076,
+            "EAST": 5.732
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -20.69,
+          "fires_west": 71.45,
+          "fires_east": 178.66,
+          "pm_index": 83.06,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.061,
+            "EAST": 20.618
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -19.78,
+          "fires_west": 102.31,
+          "fires_east": 175.91,
+          "pm_index": 89.51,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.087,
+            "EAST": 26.387
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -19.68,
+          "fires_west": 93.09,
+          "fires_east": 71.2,
+          "pm_index": 93.82,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.079,
+            "EAST": 32.239
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -20.51,
+          "fires_west": 58.38,
+          "fires_east": 56.75,
+          "pm_index": 90.91,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.05,
+            "EAST": 26.99
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -19.1,
+          "fires_west": 29.29,
+          "fires_east": 206.27,
+          "pm_index": 73.62,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.025,
+            "EAST": 13.58
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -19.39,
+          "fires_west": 123.62,
+          "fires_east": 200.33,
+          "pm_index": 80.03,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.105,
+            "EAST": 18.233
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 19.65,
+          "fires_west": 178.83,
+          "fires_east": 51.24,
+          "pm_index": 76.72,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 6.411,
+            "EAST": 9.819
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.48,
+          "fires_west": 65.73,
+          "fires_east": 72.33,
+          "pm_index": 104.15,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 25.289,
+            "EAST": 14.097
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 18.47,
+          "fires_west": 214.34,
+          "fires_east": 78.22,
+          "pm_index": 105.84,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 31.743,
+            "EAST": 12.087
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 19.7,
+          "fires_west": 56.1,
+          "fires_east": 84.38,
+          "pm_index": 97.89,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 27.58,
+            "EAST": 7.21
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 19.65,
+          "fires_west": 112.74,
+          "fires_east": 68.37,
+          "pm_index": 100.74,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 36.227,
+            "EAST": 4.109
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 20.04,
+          "fires_west": 54.29,
+          "fires_east": 57.59,
+          "pm_index": 83.26,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 19.829,
+            "EAST": 1.074
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 20.67,
+          "fires_west": 84.26,
+          "fires_east": 57.93,
+          "pm_index": 80.51,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 19.535,
+            "EAST": 0.063
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 18.6,
+          "fires_west": 91.47,
+          "fires_east": 10.27,
+          "pm_index": 75.05,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.836,
+            "EAST": 0.009
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 19.08,
+          "fires_west": 66.57,
+          "fires_east": 154.34,
+          "pm_index": 79.17,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.232,
+            "EAST": 0.131
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0101"
+    },
+    {
+      "episode_id": "V3_006",
+      "kind": "switch",
+      "reversal_at": 8,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 21.61,
+          "fires_west": 25.93,
+          "fires_east": 99.86,
+          "pm_index": 47.51,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.022,
+            "EAST": 0.085
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 21.41,
+          "fires_west": 130.97,
+          "fires_east": 26.67,
+          "pm_index": 49.75,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 1.751,
+            "EAST": 0.023
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 19.61,
+          "fires_west": 16.27,
+          "fires_east": 28.54,
+          "pm_index": 57.84,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 9.606,
+            "EAST": 0.024
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 20.21,
+          "fires_west": 77.76,
+          "fires_east": 120.89,
+          "pm_index": 66.9,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.055,
+            "EAST": 0.103
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 21.21,
+          "fires_west": 93.79,
+          "fires_east": 21.49,
+          "pm_index": 56.07,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.81,
+            "EAST": 0.018
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 21.57,
+          "fires_west": 103.18,
+          "fires_east": 32.12,
+          "pm_index": 61.63,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 14.514,
+            "EAST": 0.027
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 19.34,
+          "fires_west": 82.58,
+          "fires_east": 110.74,
+          "pm_index": 64.12,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.516,
+            "EAST": 0.094
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 21.34,
+          "fires_west": 210.88,
+          "fires_east": 320.61,
+          "pm_index": 67.15,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 18.107,
+            "EAST": 0.273
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -21.14,
+          "fires_west": 199.96,
+          "fires_east": 87.41,
+          "pm_index": 77.64,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 12.027,
+            "EAST": 19.742
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -19.4,
+          "fires_west": 286.54,
+          "fires_east": 166.97,
+          "pm_index": 101.77,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 7.715,
+            "EAST": 46.168
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -19.61,
+          "fires_west": 99.63,
+          "fires_east": 19.57,
+          "pm_index": 82.62,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.243,
+            "EAST": 33.131
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -21.0,
+          "fires_west": 263.3,
+          "fires_east": 67.35,
+          "pm_index": 76.45,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.407,
+            "EAST": 25.017
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -20.65,
+          "fires_west": 73.79,
+          "fires_east": 208.24,
+          "pm_index": 63.07,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.168,
+            "EAST": 10.014
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -21.47,
+          "fires_west": 116.39,
+          "fires_east": 264.51,
+          "pm_index": 71.91,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.337,
+            "EAST": 25.248
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -20.76,
+          "fires_west": 186.08,
+          "fires_east": 296.55,
+          "pm_index": 89.43,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.161,
+            "EAST": 40.081
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -20.65,
+          "fires_west": 70.29,
+          "fires_east": 39.21,
+          "pm_index": 97.7,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.06,
+            "EAST": 49.44
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -21.1,
+          "fires_west": 85.32,
+          "fires_east": 117.35,
+          "pm_index": 87.3,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.073,
+            "EAST": 38.588
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0008"
+    },
+    {
+      "episode_id": "V3_007",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -17.28,
+          "fires_west": 80.86,
+          "fires_east": 72.43,
+          "pm_index": 74.36,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.069,
+            "EAST": 0.062
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -19.05,
+          "fires_west": 115.02,
+          "fires_east": 93.99,
+          "pm_index": 79.13,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.098,
+            "EAST": 3.447
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -18.6,
+          "fires_west": 28.32,
+          "fires_east": 217.31,
+          "pm_index": 87.29,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.024,
+            "EAST": 13.523
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -17.57,
+          "fires_west": 125.64,
+          "fires_east": 38.26,
+          "pm_index": 98.34,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.107,
+            "EAST": 22.008
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -18.65,
+          "fires_west": 108.15,
+          "fires_east": 118.22,
+          "pm_index": 109.36,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.092,
+            "EAST": 32.193
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -18.95,
+          "fires_west": 195.19,
+          "fires_east": 131.61,
+          "pm_index": 88.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.166,
+            "EAST": 15.634
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -18.59,
+          "fires_west": 104.92,
+          "fires_east": 151.54,
+          "pm_index": 94.84,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.089,
+            "EAST": 21.789
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 18.39,
+          "fires_west": 121.86,
+          "fires_east": 56.11,
+          "pm_index": 91.59,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.651,
+            "EAST": 11.238
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 18.16,
+          "fires_west": 88.68,
+          "fires_east": 236.11,
+          "pm_index": 116.91,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 24.16,
+            "EAST": 16.61
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 18.95,
+          "fires_west": 75.11,
+          "fires_east": 13.52,
+          "pm_index": 128.18,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 42.363,
+            "EAST": 8.354
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 18.37,
+          "fires_west": 69.94,
+          "fires_east": 108.87,
+          "pm_index": 108.91,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 29.591,
+            "EAST": 3.641
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 18.85,
+          "fires_west": 65.36,
+          "fires_east": 64.4,
+          "pm_index": 99.06,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 22.344,
+            "EAST": 0.673
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 18.63,
+          "fires_west": 75.99,
+          "fires_east": 57.79,
+          "pm_index": 92.79,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.576,
+            "EAST": 0.058
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 17.88,
+          "fires_west": 118.55,
+          "fires_east": 103.16,
+          "pm_index": 93.67,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.548,
+            "EAST": 0.088
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 17.07,
+          "fires_west": 108.09,
+          "fires_east": 12.35,
+          "pm_index": 94.9,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 18.008,
+            "EAST": 0.011
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 18.74,
+          "fires_west": 109.89,
+          "fires_east": 40.45,
+          "pm_index": 98.6,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 22.829,
+            "EAST": 0.034
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 17.35,
+          "fires_west": 34.03,
+          "fires_east": 226.26,
+          "pm_index": 97.83,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 21.827,
+            "EAST": 0.192
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0051"
+    },
+    {
+      "episode_id": "V3_008",
+      "kind": "switch",
+      "reversal_at": 8,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 16.29,
+          "fires_west": 55.34,
+          "fires_east": 45.56,
+          "pm_index": 65.5,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.047,
+            "EAST": 0.039
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 17.16,
+          "fires_west": 99.13,
+          "fires_east": 82.97,
+          "pm_index": 67.64,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 2.031,
+            "EAST": 0.071
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 17.68,
+          "fires_west": 22.8,
+          "fires_east": 193.86,
+          "pm_index": 78.52,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 10.891,
+            "EAST": 0.165
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 17.17,
+          "fires_west": 19.87,
+          "fires_east": 100.63,
+          "pm_index": 81.35,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.629,
+            "EAST": 0.086
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 17.85,
+          "fires_west": 68.56,
+          "fires_east": 49.43,
+          "pm_index": 73.56,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.229,
+            "EAST": 0.042
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 16.74,
+          "fires_west": 58.42,
+          "fires_east": 57.88,
+          "pm_index": 72.34,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 5.831,
+            "EAST": 0.049
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 17.5,
+          "fires_west": 141.67,
+          "fires_east": 78.67,
+          "pm_index": 79.58,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.78,
+            "EAST": 0.067
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 16.57,
+          "fires_west": 79.14,
+          "fires_east": 25.46,
+          "pm_index": 81.59,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.071,
+            "EAST": 0.022
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -17.91,
+          "fires_west": 33.3,
+          "fires_east": 79.65,
+          "pm_index": 77.58,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 8.085,
+            "EAST": 1.142
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -17.68,
+          "fires_west": 83.54,
+          "fires_east": 25.79,
+          "pm_index": 78.93,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.881,
+            "EAST": 8.982
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -17.57,
+          "fires_west": 72.92,
+          "fires_east": 52.28,
+          "pm_index": 90.95,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.033,
+            "EAST": 20.761
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -16.7,
+          "fires_west": 80.01,
+          "fires_east": 48.0,
+          "pm_index": 85.84,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.183,
+            "EAST": 14.596
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -16.1,
+          "fires_west": 70.69,
+          "fires_east": 147.82,
+          "pm_index": 81.87,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.101,
+            "EAST": 13.838
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -16.67,
+          "fires_west": 61.39,
+          "fires_east": 45.43,
+          "pm_index": 86.98,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.368,
+            "EAST": 18.845
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -17.02,
+          "fires_west": 29.05,
+          "fires_east": 19.57,
+          "pm_index": 95.36,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.031,
+            "EAST": 28.854
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -16.68,
+          "fires_west": 108.52,
+          "fires_east": 144.26,
+          "pm_index": 84.77,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.092,
+            "EAST": 16.689
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -17.62,
+          "fires_west": 181.68,
+          "fires_east": 52.04,
+          "pm_index": 76.76,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.155,
+            "EAST": 11.178
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0068"
+    },
+    {
+      "episode_id": "V3_009",
+      "kind": "switch",
+      "reversal_at": 9,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -18.91,
+          "fires_west": 254.55,
+          "fires_east": 93.77,
+          "pm_index": 66.62,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.216,
+            "EAST": 0.08
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -19.79,
+          "fires_west": 261.03,
+          "fires_east": 65.4,
+          "pm_index": 70.35,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.222,
+            "EAST": 4.879
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -20.38,
+          "fires_west": 127.32,
+          "fires_east": 57.66,
+          "pm_index": 81.33,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.108,
+            "EAST": 14.941
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -18.98,
+          "fires_west": 29.28,
+          "fires_east": 212.55,
+          "pm_index": 80.43,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.025,
+            "EAST": 12.004
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -19.96,
+          "fires_west": 123.1,
+          "fires_east": 27.82,
+          "pm_index": 87.29,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.105,
+            "EAST": 19.141
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -19.15,
+          "fires_west": 191.24,
+          "fires_east": 64.97,
+          "pm_index": 95.73,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.163,
+            "EAST": 28.55
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -20.34,
+          "fires_west": 270.0,
+          "fires_east": 173.69,
+          "pm_index": 77.7,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.23,
+            "EAST": 9.55
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -20.35,
+          "fires_west": 33.71,
+          "fires_east": 106.15,
+          "pm_index": 84.05,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.029,
+            "EAST": 17.657
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -19.04,
+          "fires_west": 109.5,
+          "fires_east": 87.7,
+          "pm_index": 94.51,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.093,
+            "EAST": 27.061
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.58,
+          "fires_west": 42.18,
+          "fires_east": 18.49,
+          "pm_index": 84.18,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 5.536,
+            "EAST": 12.316
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 19.38,
+          "fires_west": 312.29,
+          "fires_east": 96.79,
+          "pm_index": 87.57,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.307,
+            "EAST": 4.978
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 20.67,
+          "fires_west": 132.73,
+          "fires_east": 29.24,
+          "pm_index": 114.16,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 34.904,
+            "EAST": 10.508
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 19.86,
+          "fires_west": 77.65,
+          "fires_east": 90.57,
+          "pm_index": 133.54,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 64.93,
+            "EAST": 4.933
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 19.92,
+          "fires_west": 114.19,
+          "fires_east": 91.45,
+          "pm_index": 106.25,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 34.99,
+            "EAST": 2.347
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 19.53,
+          "fires_west": 92.14,
+          "fires_east": 109.6,
+          "pm_index": 88.2,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 21.881,
+            "EAST": 2.096
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 19.63,
+          "fires_west": 219.66,
+          "fires_east": 64.34,
+          "pm_index": 87.99,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 21.957,
+            "EAST": 0.503
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 19.65,
+          "fires_west": 113.76,
+          "fires_east": 91.97,
+          "pm_index": 94.43,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 27.481,
+            "EAST": 0.083
+          }
+        }
+      ],
+      "window": {
+        "pre": 9,
+        "post": [
+          11,
+          13
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0064"
+    },
+    {
+      "episode_id": "V3_010",
+      "kind": "switch",
+      "reversal_at": 8,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 20.95,
+          "fires_west": 128.24,
+          "fires_east": 77.96,
+          "pm_index": 77.34,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.109,
+            "EAST": 0.066
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 19.98,
+          "fires_west": 45.12,
+          "fires_east": 138.4,
+          "pm_index": 84.41,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.801,
+            "EAST": 0.118
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 20.02,
+          "fires_west": 14.96,
+          "fires_east": 54.14,
+          "pm_index": 97.59,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.89,
+            "EAST": 0.046
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 21.45,
+          "fires_west": 107.66,
+          "fires_east": 199.99,
+          "pm_index": 86.51,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.149,
+            "EAST": 0.17
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 19.69,
+          "fires_west": 86.83,
+          "fires_east": 60.67,
+          "pm_index": 86.94,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.63,
+            "EAST": 0.052
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 19.53,
+          "fires_west": 81.37,
+          "fires_east": 80.22,
+          "pm_index": 93.99,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.818,
+            "EAST": 0.068
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 20.88,
+          "fires_west": 258.59,
+          "fires_east": 46.18,
+          "pm_index": 93.79,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.443,
+            "EAST": 0.039
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 20.1,
+          "fires_west": 44.94,
+          "fires_east": 154.81,
+          "pm_index": 100.01,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.169,
+            "EAST": 0.132
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -20.12,
+          "fires_west": 71.62,
+          "fires_east": 61.92,
+          "pm_index": 96.94,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 11.842,
+            "EAST": 8.398
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -19.57,
+          "fires_west": 21.62,
+          "fires_east": 49.79,
+          "pm_index": 110.94,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 9.299,
+            "EAST": 23.69
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -19.93,
+          "fires_west": 145.35,
+          "fires_east": 61.9,
+          "pm_index": 95.95,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.14,
+            "EAST": 17.813
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -19.74,
+          "fires_west": 293.08,
+          "fires_east": 59.44,
+          "pm_index": 97.26,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.07,
+            "EAST": 16.638
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -19.9,
+          "fires_west": 28.7,
+          "fires_east": 102.75,
+          "pm_index": 97.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.274,
+            "EAST": 17.128
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -21.16,
+          "fires_west": 111.17,
+          "fires_east": 76.63,
+          "pm_index": 101.6,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 1.175,
+            "EAST": 20.815
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -19.81,
+          "fires_west": 310.73,
+          "fires_east": 98.49,
+          "pm_index": 96.44,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.28,
+            "EAST": 19.135
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -20.59,
+          "fires_west": 111.75,
+          "fires_east": 67.07,
+          "pm_index": 94.95,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.095,
+            "EAST": 18.359
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -21.12,
+          "fires_west": 16.41,
+          "fires_east": 54.08,
+          "pm_index": 92.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.014,
+            "EAST": 16.891
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0074"
+    },
+    {
+      "episode_id": "V3_011",
+      "kind": "switch",
+      "reversal_at": 9,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -19.16,
+          "fires_west": 67.26,
+          "fires_east": 108.06,
+          "pm_index": 73.3,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.057,
+            "EAST": 0.092
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -18.23,
+          "fires_west": 103.99,
+          "fires_east": 190.13,
+          "pm_index": 76.58,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.088,
+            "EAST": 4.63
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -19.14,
+          "fires_west": 15.7,
+          "fires_east": 67.97,
+          "pm_index": 94.35,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.013,
+            "EAST": 22.838
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -17.53,
+          "fires_west": 96.66,
+          "fires_east": 62.95,
+          "pm_index": 103.0,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.082,
+            "EAST": 29.753
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -18.75,
+          "fires_west": 63.6,
+          "fires_east": 158.26,
+          "pm_index": 87.6,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.054,
+            "EAST": 16.097
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -18.3,
+          "fires_west": 183.8,
+          "fires_east": 242.14,
+          "pm_index": 88.18,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.156,
+            "EAST": 16.722
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -17.32,
+          "fires_west": 102.0,
+          "fires_east": 238.61,
+          "pm_index": 104.17,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.087,
+            "EAST": 31.057
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -19.26,
+          "fires_west": 72.95,
+          "fires_east": 117.76,
+          "pm_index": 120.48,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.062,
+            "EAST": 46.691
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -18.39,
+          "fires_west": 120.67,
+          "fires_east": 65.04,
+          "pm_index": 113.72,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.103,
+            "EAST": 41.497
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.1,
+          "fires_west": 14.15,
+          "fires_east": 109.9,
+          "pm_index": 112.14,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 5.714,
+            "EAST": 33.111
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 18.13,
+          "fires_west": 71.57,
+          "fires_east": 94.4,
+          "pm_index": 110.1,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 18.502,
+            "EAST": 16.287
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 18.71,
+          "fires_west": 205.05,
+          "fires_east": 98.89,
+          "pm_index": 94.17,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.649,
+            "EAST": 6.009
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 18.42,
+          "fires_west": 275.64,
+          "fires_east": 86.08,
+          "pm_index": 104.49,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 29.639,
+            "EAST": 4.408
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 17.82,
+          "fires_west": 117.67,
+          "fires_east": 58.42,
+          "pm_index": 127.32,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 49.878,
+            "EAST": 5.674
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 18.18,
+          "fires_west": 235.76,
+          "fires_east": 31.07,
+          "pm_index": 126.57,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 50.616,
+            "EAST": 2.996
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 17.25,
+          "fires_west": 85.53,
+          "fires_east": 88.55,
+          "pm_index": 107.55,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 35.46,
+            "EAST": 0.603
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 18.81,
+          "fires_west": 31.12,
+          "fires_east": 22.5,
+          "pm_index": 109.38,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 38.806,
+            "EAST": 0.027
+          }
+        }
+      ],
+      "window": {
+        "pre": 9,
+        "post": [
+          11,
+          13
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0118"
+    },
+    {
+      "episode_id": "V3_012",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 17.05,
+          "fires_west": 18.35,
+          "fires_east": 18.89,
+          "pm_index": 54.28,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.016,
+            "EAST": 0.016
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 17.73,
+          "fires_west": 98.17,
+          "fires_east": 31.81,
+          "pm_index": 55.31,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.787,
+            "EAST": 0.027
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 17.54,
+          "fires_west": 57.52,
+          "fires_east": 58.07,
+          "pm_index": 62.58,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.069,
+            "EAST": 0.049
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 18.48,
+          "fires_west": 21.56,
+          "fires_east": 84.77,
+          "pm_index": 71.53,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.691,
+            "EAST": 0.072
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 17.09,
+          "fires_west": 56.74,
+          "fires_east": 33.0,
+          "pm_index": 65.99,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.419,
+            "EAST": 0.028
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 17.81,
+          "fires_west": 110.28,
+          "fires_east": 200.52,
+          "pm_index": 63.4,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.924,
+            "EAST": 0.17
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 17.36,
+          "fires_west": 51.83,
+          "fires_east": 25.91,
+          "pm_index": 68.0,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.163,
+            "EAST": 0.022
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -18.24,
+          "fires_west": 192.48,
+          "fires_east": 66.89,
+          "pm_index": 62.17,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 5.068,
+            "EAST": 1.288
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -17.63,
+          "fires_west": 80.24,
+          "fires_east": 76.71,
+          "pm_index": 73.06,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 6.039,
+            "EAST": 12.145
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -16.97,
+          "fires_west": 64.56,
+          "fires_east": 60.5,
+          "pm_index": 93.4,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 5.762,
+            "EAST": 31.291
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -18.36,
+          "fires_west": 30.61,
+          "fires_east": 105.59,
+          "pm_index": 79.61,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 1.553,
+            "EAST": 22.586
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -17.87,
+          "fires_west": 87.05,
+          "fires_east": 13.64,
+          "pm_index": 76.37,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.204,
+            "EAST": 19.676
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -17.6,
+          "fires_west": 78.9,
+          "fires_east": 80.85,
+          "pm_index": 74.02,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.069,
+            "EAST": 19.083
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -18.27,
+          "fires_west": 88.94,
+          "fires_east": 68.07,
+          "pm_index": 63.44,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.076,
+            "EAST": 9.667
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -17.09,
+          "fires_west": 84.22,
+          "fires_east": 215.54,
+          "pm_index": 68.34,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.072,
+            "EAST": 13.994
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -17.49,
+          "fires_west": 150.7,
+          "fires_east": 19.51,
+          "pm_index": 75.15,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.128,
+            "EAST": 19.516
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -17.79,
+          "fires_west": 192.18,
+          "fires_east": 128.91,
+          "pm_index": 86.14,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.164,
+            "EAST": 31.114
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0115"
+    },
+    {
+      "episode_id": "V3_013",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -15.44,
+          "fires_west": 109.55,
+          "fires_east": 51.7,
+          "pm_index": 56.41,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.093,
+            "EAST": 0.044
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -15.44,
+          "fires_west": 61.71,
+          "fires_east": 108.57,
+          "pm_index": 58.77,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.053,
+            "EAST": 1.466
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -15.77,
+          "fires_west": 55.78,
+          "fires_east": 18.1,
+          "pm_index": 65.73,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.048,
+            "EAST": 9.128
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -16.76,
+          "fires_west": 108.77,
+          "fires_east": 30.05,
+          "pm_index": 74.07,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.093,
+            "EAST": 17.068
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -16.65,
+          "fires_west": 107.55,
+          "fires_east": 24.34,
+          "pm_index": 65.17,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.092,
+            "EAST": 9.209
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -16.11,
+          "fires_west": 79.0,
+          "fires_east": 22.73,
+          "pm_index": 59.88,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.067,
+            "EAST": 5.673
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -16.1,
+          "fires_west": 81.16,
+          "fires_east": 19.59,
+          "pm_index": 61.02,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.069,
+            "EAST": 5.351
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 15.79,
+          "fires_west": 191.05,
+          "fires_east": 80.26,
+          "pm_index": 61.47,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.493,
+            "EAST": 4.144
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 16.38,
+          "fires_west": 98.33,
+          "fires_east": 67.02,
+          "pm_index": 77.07,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 17.584,
+            "EAST": 4.774
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 16.47,
+          "fires_west": 132.41,
+          "fires_east": 82.57,
+          "pm_index": 103.34,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 40.146,
+            "EAST": 6.364
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 16.39,
+          "fires_west": 77.45,
+          "fires_east": 12.9,
+          "pm_index": 95.63,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 37.835,
+            "EAST": 2.538
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 16.81,
+          "fires_west": 106.21,
+          "fires_east": 44.31,
+          "pm_index": 89.06,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 32.944,
+            "EAST": 0.294
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 16.15,
+          "fires_west": 157.08,
+          "fires_east": 85.82,
+          "pm_index": 82.12,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.544,
+            "EAST": 0.077
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 16.93,
+          "fires_west": 224.46,
+          "fires_east": 190.66,
+          "pm_index": 81.59,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 25.754,
+            "EAST": 0.162
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 15.74,
+          "fires_west": 80.89,
+          "fires_east": 102.03,
+          "pm_index": 87.9,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 34.297,
+            "EAST": 0.087
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 16.12,
+          "fires_west": 220.48,
+          "fires_east": 200.37,
+          "pm_index": 95.12,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 39.358,
+            "EAST": 0.171
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 16.96,
+          "fires_west": 89.9,
+          "fires_east": 75.94,
+          "pm_index": 82.98,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 30.483,
+            "EAST": 0.065
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0056"
+    },
+    {
+      "episode_id": "V3_014",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 19.16,
+          "fires_west": 77.58,
+          "fires_east": 34.95,
+          "pm_index": 72.74,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.066,
+            "EAST": 0.03
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 18.61,
+          "fires_west": 48.85,
+          "fires_east": 84.48,
+          "pm_index": 76.39,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 3.429,
+            "EAST": 0.072
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 18.31,
+          "fires_west": 131.21,
+          "fires_east": 74.83,
+          "pm_index": 85.12,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.126,
+            "EAST": 0.064
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 17.81,
+          "fires_west": 78.34,
+          "fires_east": 127.42,
+          "pm_index": 82.25,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.446,
+            "EAST": 0.108
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 18.99,
+          "fires_west": 60.28,
+          "fires_east": 72.98,
+          "pm_index": 92.8,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 21.74,
+            "EAST": 0.062
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 19.64,
+          "fires_west": 110.49,
+          "fires_east": 94.94,
+          "pm_index": 85.01,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.514,
+            "EAST": 0.081
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 17.61,
+          "fires_west": 86.43,
+          "fires_east": 112.27,
+          "pm_index": 83.46,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.565,
+            "EAST": 0.096
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -18.99,
+          "fires_west": 76.41,
+          "fires_east": 72.81,
+          "pm_index": 87.68,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.396,
+            "EAST": 5.323
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -19.54,
+          "fires_west": 75.41,
+          "fires_east": 109.66,
+          "pm_index": 103.56,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 11.052,
+            "EAST": 21.911
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -18.21,
+          "fires_west": 28.0,
+          "fires_east": 23.38,
+          "pm_index": 102.15,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 4.887,
+            "EAST": 26.206
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -19.8,
+          "fires_west": 79.48,
+          "fires_east": 10.6,
+          "pm_index": 97.01,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 3.057,
+            "EAST": 24.384
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -17.76,
+          "fires_west": 22.06,
+          "fires_east": 15.85,
+          "pm_index": 84.41,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.5,
+            "EAST": 13.508
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -19.44,
+          "fires_west": 33.73,
+          "fires_east": 71.87,
+          "pm_index": 77.21,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.032,
+            "EAST": 6.809
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -18.17,
+          "fires_west": 35.81,
+          "fires_east": 75.76,
+          "pm_index": 78.79,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.03,
+            "EAST": 7.822
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -18.01,
+          "fires_west": 57.72,
+          "fires_east": 83.93,
+          "pm_index": 84.11,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.049,
+            "EAST": 13.572
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -19.09,
+          "fires_west": 35.06,
+          "fires_east": 163.57,
+          "pm_index": 86.53,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.03,
+            "EAST": 15.551
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -19.21,
+          "fires_west": 94.08,
+          "fires_east": 80.79,
+          "pm_index": 91.09,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.08,
+            "EAST": 19.957
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "WEST_TO_EAST"
+      },
+      "id_original_pool": "E0041"
+    },
+    {
+      "episode_id": "V3_015",
+      "kind": "switch",
+      "reversal_at": 7,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -19.6,
+          "fires_west": 12.73,
+          "fires_east": 32.86,
+          "pm_index": 54.13,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.011,
+            "EAST": 0.028
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -18.52,
+          "fires_west": 57.45,
+          "fires_east": 106.67,
+          "pm_index": 51.71,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.049,
+            "EAST": 1.508
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -19.24,
+          "fires_west": 30.55,
+          "fires_east": 167.68,
+          "pm_index": 61.94,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.026,
+            "EAST": 9.417
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -18.89,
+          "fires_west": 52.08,
+          "fires_east": 27.99,
+          "pm_index": 74.21,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.044,
+            "EAST": 21.765
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -18.85,
+          "fires_west": 111.57,
+          "fires_east": 116.69,
+          "pm_index": 76.91,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.095,
+            "EAST": 24.613
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -18.88,
+          "fires_west": 165.37,
+          "fires_east": 70.5,
+          "pm_index": 64.46,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.141,
+            "EAST": 12.091
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -19.88,
+          "fires_west": 60.81,
+          "fires_east": 74.54,
+          "pm_index": 70.62,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.052,
+            "EAST": 18.779
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 18.03,
+          "fires_west": 90.9,
+          "fires_east": 12.7,
+          "pm_index": 64.59,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 2.575,
+            "EAST": 9.028
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 19.23,
+          "fires_west": 35.81,
+          "fires_east": 89.67,
+          "pm_index": 81.08,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 16.496,
+            "EAST": 12.325
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.59,
+          "fires_west": 243.67,
+          "fires_east": 34.9,
+          "pm_index": 89.36,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 32.004,
+            "EAST": 8.244
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 18.18,
+          "fires_west": 21.48,
+          "fires_east": 71.89,
+          "pm_index": 82.64,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 27.119,
+            "EAST": 2.82
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 18.3,
+          "fires_west": 81.0,
+          "fires_east": 96.59,
+          "pm_index": 88.75,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 37.4,
+            "EAST": 0.487
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 18.78,
+          "fires_west": 88.16,
+          "fires_east": 271.46,
+          "pm_index": 66.68,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 14.111,
+            "EAST": 0.238
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 19.9,
+          "fires_west": 35.03,
+          "fires_east": 100.82,
+          "pm_index": 69.15,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.846,
+            "EAST": 0.086
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 20.14,
+          "fires_west": 22.08,
+          "fires_east": 96.21,
+          "pm_index": 66.6,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.997,
+            "EAST": 0.082
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 18.56,
+          "fires_west": 59.78,
+          "fires_east": 71.42,
+          "pm_index": 58.48,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.601,
+            "EAST": 0.061
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 19.34,
+          "fires_west": 222.55,
+          "fires_east": 74.01,
+          "pm_index": 57.47,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.409,
+            "EAST": 0.063
+          }
+        }
+      ],
+      "window": {
+        "pre": 7,
+        "post": [
+          9,
+          11
+        ],
+        "direction": "EAST_TO_WEST"
+      },
+      "id_original_pool": "E0096"
+    },
+    {
+      "episode_id": "V3_016",
+      "kind": "stable",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 20.13,
+          "fires_west": 56.97,
+          "fires_east": 85.61,
+          "pm_index": 72.82,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.048,
+            "EAST": 0.073
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 18.68,
+          "fires_west": 7.82,
+          "fires_east": 155.11,
+          "pm_index": 77.84,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 2.521,
+            "EAST": 0.132
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 20.39,
+          "fires_west": 68.49,
+          "fires_east": 13.59,
+          "pm_index": 78.08,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.56,
+            "EAST": 0.012
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 18.78,
+          "fires_west": 22.94,
+          "fires_east": 86.18,
+          "pm_index": 79.28,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 4.916,
+            "EAST": 0.073
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 18.45,
+          "fires_west": 72.29,
+          "fires_east": 101.89,
+          "pm_index": 78.86,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 9.949,
+            "EAST": 0.087
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 20.28,
+          "fires_west": 51.82,
+          "fires_east": 12.56,
+          "pm_index": 80.3,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 7.984,
+            "EAST": 0.011
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 20.05,
+          "fires_west": 44.89,
+          "fires_east": 135.5,
+          "pm_index": 84.67,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 11.726,
+            "EAST": 0.115
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 18.82,
+          "fires_west": 130.24,
+          "fires_east": 98.42,
+          "pm_index": 81.66,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 9.454,
+            "EAST": 0.084
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 18.98,
+          "fires_west": 146.51,
+          "fires_east": 218.62,
+          "pm_index": 85.05,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.62,
+            "EAST": 0.186
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.6,
+          "fires_west": 68.06,
+          "fires_east": 61.48,
+          "pm_index": 94.92,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.49,
+            "EAST": 0.052
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 19.41,
+          "fires_west": 125.87,
+          "fires_east": 53.5,
+          "pm_index": 95.94,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 23.57,
+            "EAST": 0.046
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 18.29,
+          "fires_west": 173.95,
+          "fires_east": 78.1,
+          "pm_index": 86.96,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.539,
+            "EAST": 0.066
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 19.97,
+          "fires_west": 65.24,
+          "fires_east": 75.42,
+          "pm_index": 98.02,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 26.196,
+            "EAST": 0.064
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 20.2,
+          "fires_west": 68.06,
+          "fires_east": 120.22,
+          "pm_index": 98.13,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 26.198,
+            "EAST": 0.102
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 19.61,
+          "fires_west": 144.73,
+          "fires_east": 32.27,
+          "pm_index": 85.62,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.311,
+            "EAST": 0.027
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 19.33,
+          "fires_west": 113.65,
+          "fires_east": 59.01,
+          "pm_index": 89.7,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.349,
+            "EAST": 0.05
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 18.84,
+          "fires_west": 70.62,
+          "fires_east": 67.24,
+          "pm_index": 94.44,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.548,
+            "EAST": 0.057
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "STABLE_WEST"
+      },
+      "id_original_pool": "E0124"
+    },
+    {
+      "episode_id": "V3_017",
+      "kind": "stable",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 18.36,
+          "fires_west": 46.34,
+          "fires_east": 77.95,
+          "pm_index": 60.87,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.039,
+            "EAST": 0.066
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 17.82,
+          "fires_west": 80.92,
+          "fires_east": 139.4,
+          "pm_index": 63.99,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 1.87,
+            "EAST": 0.119
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 18.77,
+          "fires_west": 107.14,
+          "fires_east": 228.98,
+          "pm_index": 71.31,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 9.675,
+            "EAST": 0.195
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": 18.08,
+          "fires_west": 164.24,
+          "fires_east": 104.9,
+          "pm_index": 79.43,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 16.076,
+            "EAST": 0.089
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 18.37,
+          "fires_west": 21.49,
+          "fires_east": 186.87,
+          "pm_index": 83.21,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 22.689,
+            "EAST": 0.159
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 19.46,
+          "fires_west": 17.49,
+          "fires_east": 78.51,
+          "pm_index": 86.62,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 24.25,
+            "EAST": 0.067
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 19.01,
+          "fires_west": 30.31,
+          "fires_east": 69.19,
+          "pm_index": 67.14,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 6.535,
+            "EAST": 0.059
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 17.83,
+          "fires_west": 9.56,
+          "fires_east": 217.35,
+          "pm_index": 65.3,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 3.897,
+            "EAST": 0.185
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 18.06,
+          "fires_west": 70.77,
+          "fires_east": 150.85,
+          "pm_index": 66.03,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 4.796,
+            "EAST": 0.128
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 19.37,
+          "fires_west": 69.76,
+          "fires_east": 82.08,
+          "pm_index": 69.52,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 5.44,
+            "EAST": 0.07
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 19.07,
+          "fires_west": 72.01,
+          "fires_east": 86.8,
+          "pm_index": 72.32,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.409,
+            "EAST": 0.074
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 19.55,
+          "fires_west": 46.38,
+          "fires_east": 49.49,
+          "pm_index": 74.14,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 13.42,
+            "EAST": 0.042
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 19.79,
+          "fires_west": 121.36,
+          "fires_east": 51.79,
+          "pm_index": 74.64,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.32,
+            "EAST": 0.044
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": 19.85,
+          "fires_west": 46.24,
+          "fires_east": 217.85,
+          "pm_index": 74.52,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 12.85,
+            "EAST": 0.185
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 18.45,
+          "fires_west": 51.84,
+          "fires_east": 131.61,
+          "pm_index": 78.65,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 18.012,
+            "EAST": 0.112
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 18.47,
+          "fires_west": 165.99,
+          "fires_east": 10.78,
+          "pm_index": 72.91,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 10.537,
+            "EAST": 0.009
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 19.53,
+          "fires_west": 162.8,
+          "fires_east": 24.51,
+          "pm_index": 77.48,
+          "truth": "WEST",
+          "oracle_contrib": {
+            "WEST": 15.867,
+            "EAST": 0.021
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "STABLE_WEST"
+      },
+      "id_original_pool": "E0137"
+    },
+    {
+      "episode_id": "V3_018",
+      "kind": "stable",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -18.5,
+          "fires_west": 70.73,
+          "fires_east": 80.73,
+          "pm_index": 75.28,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.06,
+            "EAST": 0.069
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -19.1,
+          "fires_west": 40.1,
+          "fires_east": 122.96,
+          "pm_index": 78.88,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.034,
+            "EAST": 3.884
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -20.06,
+          "fires_west": 73.03,
+          "fires_east": 59.9,
+          "pm_index": 93.7,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.062,
+            "EAST": 16.598
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -19.21,
+          "fires_west": 69.66,
+          "fires_east": 71.09,
+          "pm_index": 94.59,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.059,
+            "EAST": 19.195
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -19.14,
+          "fires_west": 160.64,
+          "fires_east": 63.12,
+          "pm_index": 88.01,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.137,
+            "EAST": 12.641
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -20.47,
+          "fires_west": 125.65,
+          "fires_east": 41.53,
+          "pm_index": 89.26,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.107,
+            "EAST": 13.039
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -20.07,
+          "fires_west": 47.78,
+          "fires_east": 173.75,
+          "pm_index": 85.87,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.041,
+            "EAST": 10.609
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -18.82,
+          "fires_west": 60.04,
+          "fires_east": 78.25,
+          "pm_index": 89.71,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.051,
+            "EAST": 13.783
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -20.14,
+          "fires_west": 48.77,
+          "fires_east": 57.0,
+          "pm_index": 100.7,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.041,
+            "EAST": 26.388
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -20.13,
+          "fires_west": 6.74,
+          "fires_east": 54.04,
+          "pm_index": 89.37,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.006,
+            "EAST": 14.573
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -19.47,
+          "fires_west": 67.76,
+          "fires_east": 170.8,
+          "pm_index": 87.01,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.058,
+            "EAST": 10.618
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -18.89,
+          "fires_west": 72.41,
+          "fires_east": 146.22,
+          "pm_index": 90.75,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.062,
+            "EAST": 15.472
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -20.53,
+          "fires_west": 48.35,
+          "fires_east": 46.56,
+          "pm_index": 105.7,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.041,
+            "EAST": 29.996
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -20.37,
+          "fires_west": 22.88,
+          "fires_east": 105.24,
+          "pm_index": 97.52,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.019,
+            "EAST": 21.554
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -20.39,
+          "fires_west": 159.84,
+          "fires_east": 44.82,
+          "pm_index": 88.71,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.136,
+            "EAST": 12.506
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -18.86,
+          "fires_west": 106.03,
+          "fires_east": 86.68,
+          "pm_index": 91.99,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.09,
+            "EAST": 15.605
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -18.55,
+          "fires_west": 102.96,
+          "fires_east": 71.23,
+          "pm_index": 86.23,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.088,
+            "EAST": 11.16
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "STABLE_EAST"
+      },
+      "id_original_pool": "E0138"
+    },
+    {
+      "episode_id": "V3_019",
+      "kind": "stable",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -17.31,
+          "fires_west": 90.39,
+          "fires_east": 58.37,
+          "pm_index": 75.54,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.077,
+            "EAST": 0.05
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -15.86,
+          "fires_west": 39.24,
+          "fires_east": 39.03,
+          "pm_index": 75.78,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.034,
+            "EAST": 1.697
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -17.71,
+          "fires_west": 99.78,
+          "fires_east": 71.81,
+          "pm_index": 84.94,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.085,
+            "EAST": 8.901
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -16.0,
+          "fires_west": 59.37,
+          "fires_east": 174.73,
+          "pm_index": 86.75,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.051,
+            "EAST": 10.148
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -17.3,
+          "fires_west": 78.69,
+          "fires_east": 88.27,
+          "pm_index": 93.15,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.067,
+            "EAST": 17.124
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -17.4,
+          "fires_west": 39.31,
+          "fires_east": 165.19,
+          "pm_index": 104.89,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.034,
+            "EAST": 28.994
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -16.14,
+          "fires_west": 22.46,
+          "fires_east": 101.39,
+          "pm_index": 100.08,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.019,
+            "EAST": 23.933
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -17.63,
+          "fires_west": 111.24,
+          "fires_east": 63.03,
+          "pm_index": 102.87,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.095,
+            "EAST": 28.691
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -17.13,
+          "fires_west": 107.01,
+          "fires_east": 87.62,
+          "pm_index": 101.37,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.091,
+            "EAST": 22.586
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -17.76,
+          "fires_west": 104.45,
+          "fires_east": 102.21,
+          "pm_index": 91.83,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.089,
+            "EAST": 15.32
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -16.38,
+          "fires_west": 288.31,
+          "fires_east": 58.1,
+          "pm_index": 91.19,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.245,
+            "EAST": 17.098
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -16.15,
+          "fires_west": 75.7,
+          "fires_east": 84.72,
+          "pm_index": 96.52,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.065,
+            "EAST": 18.567
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -16.26,
+          "fires_west": 205.55,
+          "fires_east": 81.29,
+          "pm_index": 92.32,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.175,
+            "EAST": 15.603
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -15.86,
+          "fires_west": 26.47,
+          "fires_east": 80.76,
+          "pm_index": 89.45,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.023,
+            "EAST": 16.379
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -16.46,
+          "fires_west": 166.62,
+          "fires_east": 80.01,
+          "pm_index": 91.32,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.142,
+            "EAST": 17.507
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -17.4,
+          "fires_west": 88.28,
+          "fires_east": 24.8,
+          "pm_index": 94.22,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.075,
+            "EAST": 17.429
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -16.28,
+          "fires_west": 120.38,
+          "fires_east": 104.87,
+          "pm_index": 92.35,
+          "truth": "EAST",
+          "oracle_contrib": {
+            "WEST": 0.103,
+            "EAST": 14.985
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "STABLE_EAST"
+      },
+      "id_original_pool": "E0121"
+    },
+    {
+      "episode_id": "V3_020",
+      "kind": "ambiguous",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 0.15,
+          "fires_west": 186.45,
+          "fires_east": 58.67,
+          "pm_index": 74.81,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.158,
+            "EAST": 0.05
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 0.18,
+          "fires_west": 203.24,
+          "fires_east": 83.69,
+          "pm_index": 76.58,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.314,
+            "EAST": 0.111
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -0.56,
+          "fires_west": 123.63,
+          "fires_east": 164.78,
+          "pm_index": 78.14,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.33,
+            "EAST": 0.251
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -0.17,
+          "fires_west": 87.39,
+          "fires_east": 10.84,
+          "pm_index": 74.76,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.34,
+            "EAST": 0.232
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 0.26,
+          "fires_west": 101.53,
+          "fires_east": 80.74,
+          "pm_index": 75.43,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.398,
+            "EAST": 0.251
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 0.39,
+          "fires_west": 177.74,
+          "fires_east": 49.18,
+          "pm_index": 77.23,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.529,
+            "EAST": 0.231
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -0.01,
+          "fires_west": 75.38,
+          "fires_east": 83.42,
+          "pm_index": 75.42,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.51,
+            "EAST": 0.267
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -0.61,
+          "fires_west": 72.63,
+          "fires_east": 89.34,
+          "pm_index": 76.93,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.422,
+            "EAST": 0.347
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": 0.59,
+          "fires_west": 150.43,
+          "fires_east": 33.43,
+          "pm_index": 74.58,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.553,
+            "EAST": 0.275
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 0.52,
+          "fires_west": 55.75,
+          "fires_east": 98.23,
+          "pm_index": 77.12,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.593,
+            "EAST": 0.282
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 0.01,
+          "fires_west": 20.03,
+          "fires_east": 82.62,
+          "pm_index": 76.76,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.52,
+            "EAST": 0.309
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 0.13,
+          "fires_west": 64.02,
+          "fires_east": 70.12,
+          "pm_index": 75.8,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.512,
+            "EAST": 0.311
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 0.42,
+          "fires_west": 78.67,
+          "fires_east": 82.25,
+          "pm_index": 77.13,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.557,
+            "EAST": 0.301
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -0.14,
+          "fires_west": 35.84,
+          "fires_east": 87.94,
+          "pm_index": 73.76,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.483,
+            "EAST": 0.341
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": 0.3,
+          "fires_west": 121.04,
+          "fires_east": 58.92,
+          "pm_index": 75.05,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.549,
+            "EAST": 0.314
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 0.47,
+          "fires_west": 134.32,
+          "fires_east": 59.95,
+          "pm_index": 75.7,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.646,
+            "EAST": 0.281
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": -0.42,
+          "fires_west": 10.0,
+          "fires_east": 150.24,
+          "pm_index": 76.61,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.492,
+            "EAST": 0.398
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "AMBIGUOUS"
+      },
+      "id_original_pool": "E0149"
+    },
+    {
+      "episode_id": "V3_021",
+      "kind": "ambiguous",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 0.59,
+          "fires_west": 107.98,
+          "fires_east": 30.57,
+          "pm_index": 56.31,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.092,
+            "EAST": 0.026
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 0.82,
+          "fires_west": 59.32,
+          "fires_east": 25.44,
+          "pm_index": 55.17,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.149,
+            "EAST": 0.039
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 0.19,
+          "fires_west": 66.13,
+          "fires_east": 178.14,
+          "pm_index": 57.73,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.19,
+            "EAST": 0.182
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -0.71,
+          "fires_west": 71.9,
+          "fires_east": 215.67,
+          "pm_index": 58.56,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.192,
+            "EAST": 0.374
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": -0.67,
+          "fires_west": 40.83,
+          "fires_east": 14.0,
+          "pm_index": 57.12,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.167,
+            "EAST": 0.396
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -0.1,
+          "fires_west": 83.18,
+          "fires_east": 31.94,
+          "pm_index": 56.38,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.208,
+            "EAST": 0.373
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 0.89,
+          "fires_west": 106.25,
+          "fires_east": 56.9,
+          "pm_index": 54.34,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.32,
+            "EAST": 0.291
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 0.69,
+          "fires_west": 12.36,
+          "fires_east": 201.4,
+          "pm_index": 55.59,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.342,
+            "EAST": 0.372
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -0.14,
+          "fires_west": 110.07,
+          "fires_east": 232.08,
+          "pm_index": 55.76,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.371,
+            "EAST": 0.526
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -0.65,
+          "fires_west": 40.01,
+          "fires_east": 59.56,
+          "pm_index": 54.22,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.293,
+            "EAST": 0.59
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": 0.76,
+          "fires_west": 86.85,
+          "fires_east": 97.07,
+          "pm_index": 59.02,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.384,
+            "EAST": 0.481
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 0.78,
+          "fires_west": 79.05,
+          "fires_east": 54.2,
+          "pm_index": 57.4,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.475,
+            "EAST": 0.368
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -0.26,
+          "fires_west": 69.41,
+          "fires_east": 105.95,
+          "pm_index": 57.27,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.432,
+            "EAST": 0.427
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -0.1,
+          "fires_west": 13.87,
+          "fires_east": 169.09,
+          "pm_index": 58.36,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.366,
+            "EAST": 0.517
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -0.49,
+          "fires_west": 111.24,
+          "fires_east": 216.08,
+          "pm_index": 56.82,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.363,
+            "EAST": 0.689
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -0.63,
+          "fires_west": 99.3,
+          "fires_east": 227.1,
+          "pm_index": 56.08,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.339,
+            "EAST": 0.894
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 0.5,
+          "fires_west": 174.83,
+          "fires_east": 62.33,
+          "pm_index": 58.72,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.483,
+            "EAST": 0.706
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "AMBIGUOUS"
+      },
+      "id_original_pool": "E0140"
+    },
+    {
+      "episode_id": "V3_022",
+      "kind": "ambiguous",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": 0.81,
+          "fires_west": 77.73,
+          "fires_east": 84.58,
+          "pm_index": 67.6,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.066,
+            "EAST": 0.072
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": -0.14,
+          "fires_west": 56.81,
+          "fires_east": 77.35,
+          "pm_index": 66.05,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.102,
+            "EAST": 0.129
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": 0.42,
+          "fires_west": 81.98,
+          "fires_east": 142.63,
+          "pm_index": 65.26,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.168,
+            "EAST": 0.218
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -0.85,
+          "fires_west": 62.23,
+          "fires_east": 33.13,
+          "pm_index": 67.15,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.163,
+            "EAST": 0.265
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 0.46,
+          "fires_west": 90.54,
+          "fires_east": 76.56,
+          "pm_index": 65.42,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.235,
+            "EAST": 0.261
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": -0.5,
+          "fires_west": 67.56,
+          "fires_east": 161.97,
+          "pm_index": 66.64,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.229,
+            "EAST": 0.394
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": -0.38,
+          "fires_west": 52.97,
+          "fires_east": 29.23,
+          "pm_index": 66.51,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.218,
+            "EAST": 0.397
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": 0.78,
+          "fires_west": 20.89,
+          "fires_east": 85.03,
+          "pm_index": 66.2,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.251,
+            "EAST": 0.339
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -0.36,
+          "fires_west": 75.64,
+          "fires_east": 73.32,
+          "pm_index": 69.15,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.255,
+            "EAST": 0.382
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": -0.46,
+          "fires_west": 71.56,
+          "fires_east": 59.44,
+          "pm_index": 66.63,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.249,
+            "EAST": 0.42
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -0.52,
+          "fires_west": 50.89,
+          "fires_east": 61.55,
+          "pm_index": 68.85,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.223,
+            "EAST": 0.466
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": -0.4,
+          "fires_west": 52.62,
+          "fires_east": 141.11,
+          "pm_index": 65.84,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.212,
+            "EAST": 0.563
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": -0.63,
+          "fires_west": 68.44,
+          "fires_east": 106.49,
+          "pm_index": 66.48,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.206,
+            "EAST": 0.661
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -0.1,
+          "fires_west": 57.69,
+          "fires_east": 75.39,
+          "pm_index": 67.95,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.218,
+            "EAST": 0.64
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -0.26,
+          "fires_west": 71.24,
+          "fires_east": 58.21,
+          "pm_index": 69.1,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.231,
+            "EAST": 0.633
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": -0.09,
+          "fires_west": 72.86,
+          "fires_east": 62.65,
+          "pm_index": 66.31,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.252,
+            "EAST": 0.603
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 0.1,
+          "fires_west": 82.06,
+          "fires_east": 64.66,
+          "pm_index": 67.35,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.29,
+            "EAST": 0.55
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "AMBIGUOUS"
+      },
+      "id_original_pool": "E0150"
+    },
+    {
+      "episode_id": "V3_023",
+      "kind": "ambiguous",
+      "reversal_at": null,
+      "source_positions_km": {
+        "WEST": -36.0,
+        "EAST": 36.0
+      },
+      "hours": [
+        {
+          "hour": 0,
+          "wind_kmh": -0.67,
+          "fires_west": 77.55,
+          "fires_east": 107.23,
+          "pm_index": 71.34,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.066,
+            "EAST": 0.091
+          }
+        },
+        {
+          "hour": 1,
+          "wind_kmh": 0.36,
+          "fires_west": 229.63,
+          "fires_east": 66.65,
+          "pm_index": 71.5,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.257,
+            "EAST": 0.126
+          }
+        },
+        {
+          "hour": 2,
+          "wind_kmh": -0.04,
+          "fires_west": 89.84,
+          "fires_east": 102.68,
+          "pm_index": 72.36,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.291,
+            "EAST": 0.195
+          }
+        },
+        {
+          "hour": 3,
+          "wind_kmh": -0.88,
+          "fires_west": 149.1,
+          "fires_east": 35.52,
+          "pm_index": 69.42,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.316,
+            "EAST": 0.244
+          }
+        },
+        {
+          "hour": 4,
+          "wind_kmh": 0.47,
+          "fires_west": 64.66,
+          "fires_east": 105.39,
+          "pm_index": 70.94,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.363,
+            "EAST": 0.27
+          }
+        },
+        {
+          "hour": 5,
+          "wind_kmh": 0.44,
+          "fires_west": 99.7,
+          "fires_east": 85.55,
+          "pm_index": 72.66,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.434,
+            "EAST": 0.273
+          }
+        },
+        {
+          "hour": 6,
+          "wind_kmh": 0.55,
+          "fires_west": 224.2,
+          "fires_east": 52.68,
+          "pm_index": 71.37,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.622,
+            "EAST": 0.241
+          }
+        },
+        {
+          "hour": 7,
+          "wind_kmh": -0.45,
+          "fires_west": 99.86,
+          "fires_east": 91.41,
+          "pm_index": 71.67,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.547,
+            "EAST": 0.311
+          }
+        },
+        {
+          "hour": 8,
+          "wind_kmh": -0.15,
+          "fires_west": 68.59,
+          "fires_east": 66.62,
+          "pm_index": 71.97,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.501,
+            "EAST": 0.332
+          }
+        },
+        {
+          "hour": 9,
+          "wind_kmh": 0.18,
+          "fires_west": 72.75,
+          "fires_east": 53.8,
+          "pm_index": 71.9,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.509,
+            "EAST": 0.312
+          }
+        },
+        {
+          "hour": 10,
+          "wind_kmh": -0.53,
+          "fires_west": 63.19,
+          "fires_east": 177.13,
+          "pm_index": 72.58,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.421,
+            "EAST": 0.46
+          }
+        },
+        {
+          "hour": 11,
+          "wind_kmh": 0.28,
+          "fires_west": 94.14,
+          "fires_east": 36.02,
+          "pm_index": 73.49,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.468,
+            "EAST": 0.389
+          }
+        },
+        {
+          "hour": 12,
+          "wind_kmh": 0.12,
+          "fires_west": 242.5,
+          "fires_east": 90.84,
+          "pm_index": 71.91,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.616,
+            "EAST": 0.395
+          }
+        },
+        {
+          "hour": 13,
+          "wind_kmh": -0.86,
+          "fires_west": 98.79,
+          "fires_east": 165.22,
+          "pm_index": 69.71,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.487,
+            "EAST": 0.571
+          }
+        },
+        {
+          "hour": 14,
+          "wind_kmh": -0.67,
+          "fires_west": 43.32,
+          "fires_east": 100.75,
+          "pm_index": 70.47,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.373,
+            "EAST": 0.672
+          }
+        },
+        {
+          "hour": 15,
+          "wind_kmh": 0.59,
+          "fires_west": 25.82,
+          "fires_east": 90.97,
+          "pm_index": 72.46,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.4,
+            "EAST": 0.557
+          }
+        },
+        {
+          "hour": 16,
+          "wind_kmh": 0.4,
+          "fires_west": 116.82,
+          "fires_east": 39.44,
+          "pm_index": 70.87,
+          "truth": "ABSTAIN",
+          "oracle_contrib": {
+            "WEST": 0.481,
+            "EAST": 0.452
+          }
+        }
+      ],
+      "window": {
+        "pre": 5,
+        "post": [
+          7,
+          9
+        ],
+        "direction": "AMBIGUOUS"
+      },
+      "id_original_pool": "E0153"
+    }
+  ]
+}

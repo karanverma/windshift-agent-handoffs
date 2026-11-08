@@ -1,0 +1,37 @@
+model,case_type,condition,n,correct,unnecessary_abstain,unsupported,wrong_source
+GPT-4o-mini,switch,fresh_peer,32,32,0,0,0
+GPT-4o-mini,switch,current_content_old_timestamp,32,21,10,1,1
+GPT-4o-mini,switch,historical_content_new_timestamp,32,11,21,0,0
+GPT-4o-mini,switch,stale_peer,32,12,20,0,0
+GPT-4o-mini,stable,fresh_peer,8,8,0,0,0
+GPT-4o-mini,stable,current_content_old_timestamp,8,6,0,2,2
+GPT-4o-mini,stable,historical_content_new_timestamp,8,8,0,0,0
+GPT-4o-mini,stable,stale_peer,8,7,0,1,1
+GPT-4o-mini,ambiguous,fresh_peer,8,2,0,6,0
+GPT-4o-mini,ambiguous,current_content_old_timestamp,8,6,0,2,0
+GPT-4o-mini,ambiguous,historical_content_new_timestamp,8,0,0,8,0
+GPT-4o-mini,ambiguous,stale_peer,8,4,0,4,0
+Gemini 3.1 Flash Lite,switch,fresh_peer,32,27,0,5,5
+Gemini 3.1 Flash Lite,switch,current_content_old_timestamp,32,24,3,5,5
+Gemini 3.1 Flash Lite,switch,historical_content_new_timestamp,32,22,1,9,9
+Gemini 3.1 Flash Lite,switch,stale_peer,32,23,2,7,7
+Gemini 3.1 Flash Lite,stable,fresh_peer,8,7,1,0,0
+Gemini 3.1 Flash Lite,stable,current_content_old_timestamp,8,7,1,0,0
+Gemini 3.1 Flash Lite,stable,historical_content_new_timestamp,8,7,1,0,0
+Gemini 3.1 Flash Lite,stable,stale_peer,8,7,1,0,0
+Gemini 3.1 Flash Lite,ambiguous,fresh_peer,8,2,0,6,0
+Gemini 3.1 Flash Lite,ambiguous,current_content_old_timestamp,8,2,0,6,0
+Gemini 3.1 Flash Lite,ambiguous,historical_content_new_timestamp,8,1,0,7,0
+Gemini 3.1 Flash Lite,ambiguous,stale_peer,8,2,0,6,0
+Qwen3-235B,switch,fresh_peer,32,26,6,0,0
+Qwen3-235B,switch,current_content_old_timestamp,32,26,6,0,0
+Qwen3-235B,switch,historical_content_new_timestamp,32,23,9,0,0
+Qwen3-235B,switch,stale_peer,32,26,6,0,0
+Qwen3-235B,stable,fresh_peer,8,6,2,0,0
+Qwen3-235B,stable,current_content_old_timestamp,8,5,3,0,0
+Qwen3-235B,stable,historical_content_new_timestamp,8,6,2,0,0
+Qwen3-235B,stable,stale_peer,8,4,4,0,0
+Qwen3-235B,ambiguous,fresh_peer,8,4,0,4,0
+Qwen3-235B,ambiguous,current_content_old_timestamp,8,3,0,5,0
+Qwen3-235B,ambiguous,historical_content_new_timestamp,8,3,0,5,0
+Qwen3-235B,ambiguous,stale_peer,8,3,0,5,0

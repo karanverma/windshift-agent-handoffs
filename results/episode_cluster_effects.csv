@@ -1,0 +1,16 @@
+model,contrast,estimate_pp,ci_low_pp,ci_high_pp,n_episodes
+GPT-4o-mini,content,46.88,32.81,60.94,16
+GPT-4o-mini,timestamp,15.62,7.81,25.0,16
+GPT-4o-mini,interaction,37.5,15.62,59.38,16
+Gemini 3.1 Flash Lite,content,9.38,3.12,17.19,16
+Gemini 3.1 Flash Lite,timestamp,3.12,-3.12,9.38,16
+Gemini 3.1 Flash Lite,interaction,12.5,3.12,25.0,16
+Qwen3-235B,content,4.69,0.0,12.5,16
+Qwen3-235B,timestamp,-4.69,-15.62,6.25,16
+Qwen3-235B,interaction,9.38,0.0,25.0,16
+GPT minus Gemini 3.1 Flash Lite,content,37.5,25.0,50.0,16
+GPT minus Gemini 3.1 Flash Lite,timestamp,12.5,3.12,23.44,16
+GPT minus Gemini 3.1 Flash Lite,interaction,25.0,-3.12,53.12,16
+GPT minus Qwen3-235B,content,42.19,29.69,54.69,16
+GPT minus Qwen3-235B,timestamp,20.31,7.81,32.81,16
+GPT minus Qwen3-235B,interaction,28.12,0.0,56.25,16

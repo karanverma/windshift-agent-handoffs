@@ -1,0 +1,21 @@
+# Python/Colab temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+.DS_Store
+Thumbs.db
+# Optional originals: retrieve via documented source URL and verify checksums.
+real_data/raw/
+# Working artifacts
+*.log
+*.tmp

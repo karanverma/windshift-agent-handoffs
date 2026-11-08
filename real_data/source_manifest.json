@@ -1,0 +1,108 @@
+{
+  "provenance": "OpenCity redistributions of CPCB / DPCC 2024-25 actual station measurements",
+  "stations": {
+    "ITO_CPCB": {
+      "source_url": "https://data.opencity.in/dataset/0dc7b9fe-9fd4-46ee-a37e-88f0bd6f6362/resource/890f786d-fb9f-475e-8516-191bfa1b01ea/download/del-ito-cpcb-2024-25.csv",
+      "resource": "890f786d-fb9f-475e-8516-191bfa1b01ea",
+      "sha256": "dfd2f715c38326a08ce096bd05d800e770ef041ed77978660c026d7dc1822df8",
+      "size_bytes": 9463652,
+      "quality": {
+        "station_code": "ITO_CPCB",
+        "observed_station_names": [
+          "ITO, Delhi - CPCB"
+        ],
+        "source_rows": 68985,
+        "missing_timestamp": 1,
+        "missing_numeric_pm25": 4086,
+        "nonpositive_or_implausible_pm25": 0,
+        "source_file_sha256": "dfd2f715c38326a08ce096bd05d800e770ef041ed77978660c026d7dc1822df8",
+        "reference": "https://data.opencity.in/dataset/0dc7b9fe-9fd4-46ee-a37e-88f0bd6f6362/resource/890f786d-fb9f-475e-8516-191bfa1b01ea/download/del-ito-cpcb-2024-25.csv",
+        "timestamp_assumption": "Local Asia/Kolkata (IST), unconverted",
+        "duplicate_timestamp_rows": 0,
+        "daily_days_before_coverage_filter": 717,
+        "valid_raw_rows": 64899,
+        "hourly_bins_meeting_coverage": 16504,
+        "valid_calendar_days": 678,
+        "data_min": "2024-01-01 00:00:00+00:00",
+        "data_max": "2025-12-31 23:30:00+00:00",
+        "valid_day_min": "2024-01-01",
+        "valid_day_max": "2025-12-31"
+      }
+    },
+    "ANAND_VIHAR_DPCC": {
+      "source_url": "https://data.opencity.in/dataset/0dc7b9fe-9fd4-46ee-a37e-88f0bd6f6362/resource/5ef3f66f-2bb0-4593-91db-ba6e693a77f3/download/del-anand-vihar-dpcc-2024-25.csv",
+      "resource": "5ef3f66f-2bb0-4593-91db-ba6e693a77f3",
+      "sha256": "bf9a92d59abfcc36836b60d8aa501846061a795cc57df427cea156ba327de2b3",
+      "size_bytes": 11812427,
+      "quality": {
+        "station_code": "ANAND_VIHAR_DPCC",
+        "observed_station_names": [
+          "Anand Vihar, Delhi - DPCC"
+        ],
+        "source_rows": 70177,
+        "missing_timestamp": 1,
+        "missing_numeric_pm25": 10626,
+        "nonpositive_or_implausible_pm25": 0,
+        "source_file_sha256": "bf9a92d59abfcc36836b60d8aa501846061a795cc57df427cea156ba327de2b3",
+        "reference": "https://data.opencity.in/dataset/0dc7b9fe-9fd4-46ee-a37e-88f0bd6f6362/resource/5ef3f66f-2bb0-4593-91db-ba6e693a77f3/download/del-anand-vihar-dpcc-2024-25.csv",
+        "timestamp_assumption": "Local Asia/Kolkata (IST), unconverted",
+        "duplicate_timestamp_rows": 0,
+        "daily_days_before_coverage_filter": 704,
+        "valid_raw_rows": 59551,
+        "hourly_bins_meeting_coverage": 15174,
+        "valid_calendar_days": 619,
+        "data_min": "2024-01-01 00:00:00+00:00",
+        "data_max": "2025-12-31 23:45:00+00:00",
+        "valid_day_min": "2024-01-01",
+        "valid_day_max": "2025-12-31"
+      }
+    }
+  },
+  "selection_counts": {
+    "ITO_CPCB": {
+      "LOW_TO_HIGH": {
+        "selected": 4,
+        "eligible_nonexclusive": 43,
+        "target": 4
+      },
+      "HIGH_TO_LOW": {
+        "selected": 4,
+        "eligible_nonexclusive": 41,
+        "target": 4
+      },
+      "HIGH_TO_HIGH": {
+        "selected": 2,
+        "eligible_nonexclusive": 371,
+        "target": 2
+      },
+      "LOW_TO_LOW": {
+        "selected": 2,
+        "eligible_nonexclusive": 196,
+        "target": 2
+      }
+    },
+    "ANAND_VIHAR_DPCC": {
+      "LOW_TO_HIGH": {
+        "selected": 4,
+        "eligible_nonexclusive": 46,
+        "target": 4
+      },
+      "HIGH_TO_LOW": {
+        "selected": 4,
+        "eligible_nonexclusive": 40,
+        "target": 4
+      },
+      "HIGH_TO_HIGH": {
+        "selected": 2,
+        "eligible_nonexclusive": 354,
+        "target": 2
+      },
+      "LOW_TO_LOW": {
+        "selected": 2,
+        "eligible_nonexclusive": 125,
+        "target": 2
+      }
+    }
+  },
+  "selected_episode_count": 24
+}

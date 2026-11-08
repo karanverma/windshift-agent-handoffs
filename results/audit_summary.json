@@ -1,0 +1,162 @@
+{
+  "aggregate": {
+    "GPT-4o-mini": {
+      "correct": 117,
+      "unnecessary_abstain": 51,
+      "unsupported": 24,
+      "switch_wrong_source": 1,
+      "ambiguous_unsupported": 20
+    },
+    "Gemini 3.1 Flash Lite": {
+      "correct": 131,
+      "unnecessary_abstain": 10,
+      "unsupported": 51,
+      "switch_wrong_source": 26,
+      "ambiguous_unsupported": 25
+    },
+    "Qwen3-235B": {
+      "correct": 135,
+      "unnecessary_abstain": 38,
+      "unsupported": 19,
+      "switch_wrong_source": 0,
+      "ambiguous_unsupported": 19
+    },
+    "metadata": {
+      "models_complete": [
+        "GPT-4o-mini",
+        "Gemini 3.1 Flash Lite",
+        "Qwen3-235B"
+      ],
+      "reviewer_calls": 576,
+      "unique_provider_ids": 576,
+      "episodes": 24,
+      "switch_episodes": 16,
+      "factorial_cells": 4,
+      "partial_claude_excluded": true,
+      "message": "No independent real-world atmosphere or full heterogeneous swarm replication."
+    }
+  },
+  "effects": [
+    {
+      "model": "GPT-4o-mini",
+      "contrast": "content",
+      "estimate_pp": 46.88,
+      "ci_low_pp": 32.81,
+      "ci_high_pp": 60.94,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT-4o-mini",
+      "contrast": "timestamp",
+      "estimate_pp": 15.62,
+      "ci_low_pp": 7.81,
+      "ci_high_pp": 25.0,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT-4o-mini",
+      "contrast": "interaction",
+      "estimate_pp": 37.5,
+      "ci_low_pp": 15.62,
+      "ci_high_pp": 59.38,
+      "n_episodes": 16
+    },
+    {
+      "model": "Gemini 3.1 Flash Lite",
+      "contrast": "content",
+      "estimate_pp": 9.38,
+      "ci_low_pp": 3.12,
+      "ci_high_pp": 17.19,
+      "n_episodes": 16
+    },
+    {
+      "model": "Gemini 3.1 Flash Lite",
+      "contrast": "timestamp",
+      "estimate_pp": 3.12,
+      "ci_low_pp": -3.12,
+      "ci_high_pp": 9.38,
+      "n_episodes": 16
+    },
+    {
+      "model": "Gemini 3.1 Flash Lite",
+      "contrast": "interaction",
+      "estimate_pp": 12.5,
+      "ci_low_pp": 3.12,
+      "ci_high_pp": 25.0,
+      "n_episodes": 16
+    },
+    {
+      "model": "Qwen3-235B",
+      "contrast": "content",
+      "estimate_pp": 4.69,
+      "ci_low_pp": 0.0,
+      "ci_high_pp": 12.5,
+      "n_episodes": 16
+    },
+    {
+      "model": "Qwen3-235B",
+      "contrast": "timestamp",
+      "estimate_pp": -4.69,
+      "ci_low_pp": -15.62,
+      "ci_high_pp": 6.25,
+      "n_episodes": 16
+    },
+    {
+      "model": "Qwen3-235B",
+      "contrast": "interaction",
+      "estimate_pp": 9.38,
+      "ci_low_pp": 0.0,
+      "ci_high_pp": 25.0,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Gemini 3.1 Flash Lite",
+      "contrast": "content",
+      "estimate_pp": 37.5,
+      "ci_low_pp": 25.0,
+      "ci_high_pp": 50.0,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Gemini 3.1 Flash Lite",
+      "contrast": "timestamp",
+      "estimate_pp": 12.5,
+      "ci_low_pp": 3.12,
+      "ci_high_pp": 23.44,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Gemini 3.1 Flash Lite",
+      "contrast": "interaction",
+      "estimate_pp": 25.0,
+      "ci_low_pp": -3.12,
+      "ci_high_pp": 53.12,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Qwen3-235B",
+      "contrast": "content",
+      "estimate_pp": 42.19,
+      "ci_low_pp": 29.69,
+      "ci_high_pp": 54.69,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Qwen3-235B",
+      "contrast": "timestamp",
+      "estimate_pp": 20.31,
+      "ci_low_pp": 7.81,
+      "ci_high_pp": 32.81,
+      "n_episodes": 16
+    },
+    {
+      "model": "GPT minus Qwen3-235B",
+      "contrast": "interaction",
+      "estimate_pp": 28.12,
+      "ci_low_pp": 0.0,
+      "ci_high_pp": 56.25,
+      "n_episodes": 16
+    }
+  ],
+  "status": "PASS"
+}
