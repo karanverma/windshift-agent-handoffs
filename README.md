@@ -61,5 +61,5 @@ The Delhi evaluation uses recorded measurements for a separate threshold-classif
 
 ## Author
 
-Karan Verma
+Karan Verma |
 Independent Researcher
